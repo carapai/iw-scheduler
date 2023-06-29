@@ -1,0 +1,3448 @@
+[
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Fever",
+        "value": "Fever",
+        "id": "z38VCNZh0qV",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    { "dataElement": { "label": "Temperature", "id": "grMYEotvVoG", "optionSetValue": false } },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Vomiting/nausea",
+        "value": "Vomiting/nausea",
+        "id": "t1PAsSxkv0e",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Diarrhea",
+        "value": "Diarrhea",
+        "id": "a9a5FvQ1mlS",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Intense fatigue/general weakness",
+        "value": "Intense fatigue/general weakness",
+        "id": "aG4XJszgAq7",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Anorexia/loss of appetite",
+        "value": "Anorexia/loss of appetite",
+        "id": "LskRbIVOxVn",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Abdominal pain",
+        "value": "Abdominal pain",
+        "id": "R7pCw3iE9KA",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Chest pain",
+        "value": "Chest pain",
+        "id": "CIA7qpR3zNr",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Muscle pain",
+        "value": "Muscle pain",
+        "id": "dA6OfHRlWwB",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Joint pain",
+        "value": "Joint pain",
+        "id": "Tvib15EluJq",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Headache",
+        "value": "Headache",
+        "id": "bo5e2Y6HPK3",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Cough",
+        "value": "Cough",
+        "id": "lRpToX3dhff",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Difficulty swallowing",
+        "value": "Difficulty swallowing",
+        "id": "bezglsZi4Zo",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Sore throat",
+        "value": "Sore throat",
+        "id": "oR1I0GFQLeB",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Jaundice (yellow eyes/gums/skin)",
+        "value": "Jaundice (yellow eyes/gums/skin)",
+        "id": "MUUDDhMZAcq",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Conjunctivitis (red eyes)",
+        "value": "Conjunctivitis (red eyes)",
+        "id": "qkYEuoKzJS4",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Skin rash",
+        "value": "Skin rash",
+        "id": "S3Ez42lY0Cb",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Hiccups",
+        "value": "Hiccups",
+        "id": "Yz9H6wZvqCt",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Pain behind eyes/sensitive to light",
+        "value": "Pain behind eyes/sensitive to light",
+        "id": "dyo3hXbXtMr",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Coma/unconscious",
+        "value": "Coma/unconscious",
+        "id": "fuacwPMKV6G",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Confused or disoriented",
+        "value": "Confused or disoriented",
+        "id": "MUzzRCd0XH3",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Unexplained bleeding from any site",
+        "value": "Unexplained bleeding from any site",
+        "id": "sb0pvwExG0r",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Bleeding of the gums",
+        "value": "Bleeding of the gums",
+        "id": "hXA1SqpnpQm",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Bleeding from injection site",
+        "value": "Bleeding from injection site",
+        "id": "SORk2ft4MyC",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Nose bleed (epistaxis)",
+        "value": "Nose bleed (epistaxis)",
+        "id": "ve6O9z1TrzS",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Bloody or black stools (melena)",
+        "value": "Bloody or black stools (melena)",
+        "id": "xrqNCinGeHI",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Blood or “coffee grounds” in vomit(hematemesis)",
+        "value": "Blood or “coffee grounds” in vomit(hematemesis)",
+        "id": "lmcCG86s8P9",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Coughing up blood (hemoptysis)",
+        "value": "Coughing up blood (hemoptysis)",
+        "id": "LpJEYJLHO3A",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Bleeding from vagina, other than menstruation",
+        "value": "Bleeding from vagina, other than menstruation",
+        "id": "yxtJfma4Fr4",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Bruising of the skin (petechiae/ecchymosis)",
+        "value": "Bruising of the skin (petechiae/ecchymosis)",
+        "id": "fuiH5e5eUVB",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Blood in urine (hematuria)",
+        "value": "Blood in urine (hematuria)",
+        "id": "MYNJUMX76xV",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Other hemorrhagic symptoms",
+        "value": "Other hemorrhagic symptoms",
+        "id": "uWXGVimnIUf",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Other non-hemorrhagic clinical symptoms",
+        "value": "Other non-hemorrhagic clinical symptoms",
+        "id": "xjO35WB3nXJ",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Admission to hospital?",
+        "value": "Admission to hospital?",
+        "id": "AHlLUcC9l3T",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "First date of admission to hospital",
+        "value": "First date of admission to hospital",
+        "id": "tAqxn8xSJG5",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Date of isolation",
+        "value": "Date of isolation",
+        "id": "N3MzWy1nBpo",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Date of last vaccination",
+        "value": "Date of last vaccination",
+        "id": "ugEDYm9IQKS",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Did the patient attend a funeral before becoming ill?",
+        "value": "Did the patient attend a funeral before becoming ill?",
+        "id": "MOz0E2i0q2v",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Did the patient get bitten by a tick in the past 2 weeks?",
+        "value": "Did the patient get bitten by a tick in the past 2 weeks?",
+        "id": "L2AkDKuhQsD",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Has the patient had close contact  with a person with acute respiratory infection in the 14 days prior to symptom onset? ",
+        "value": "Has the patient had close contact  with a person with acute respiratory infection in the 14 days prior to symptom onset? ",
+        "id": "tVntAinnj0j",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Did the patient have direct contact (hunt, touch, eat) with animals or uncooked meat before becoming ill?",
+        "value": "Did the patient have direct contact (hunt, touch, eat) with animals or uncooked meat before becoming ill?",
+        "id": "yGjNsC1YI5U",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Did the patient participate (carry or touch the body)?",
+        "value": "Did the patient participate (carry or touch the body)?",
+        "id": "bWq66j7Towy",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Did the patient travel outside their home or village/town before becoming ill?",
+        "value": "Did the patient travel outside their home or village/town before becoming ill?",
+        "id": "RYx5cwDn5FC",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Hospital or Health Facility Name",
+        "value": "Hospital or Health Facility Name",
+        "id": "OY35IARTLYJ",
+        "optionSetValue": false
+    },
+
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Immunisation History ",
+        "value": "Immunisation History ",
+        "id": "c9p7PXLXH4S",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "CardSeen", "label": "Card Seen", "id": "k2GKEKQ9CU4" },
+            { "code": "CardNotSeen", "label": "Card Not Seen", "id": "VHYveWWNZYK" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Is the patient in isolation or currently being placed there?",
+        "value": "Is the patient in isolation or currently being placed there?",
+        "id": "EFjELQHzBqE",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Was the patient hospitalized or did he/she visit a health clinic previously for this illness?",
+        "value": "Was the patient hospitalized or did he/she visit a health clinic previously for this illness?",
+        "id": "CcwuUd5WXFb",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Difficulty breathing",
+        "value": "Difficulty breathing",
+        "id": "Ok06T0bZnQP",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Number of  doses",
+        "value": "Number of  doses",
+        "id": "OOrI7uxj0vS",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Was vitamin A given",
+        "value": "Was vitamin A given",
+        "id": "mftzbx7JntX",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Running Nose",
+        "value": "Running Nose",
+        "id": "Nedj4eHxkDA",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Shortness of Breath",
+        "value": "Shortness of Breath",
+        "id": "m7MH14roDiB",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Has the patient visited any health care facility(ies) in the 14 days prior to symptom onset",
+        "value": "Has the patient visited any health care facility(ies) in the 14 days prior to symptom onset",
+        "id": "v4bkZ9UZsXr",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Underlying conditions and comorbidity",
+        "value": "Underlying conditions and comorbidity",
+        "id": "sJeIFfhX8BE",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Cardiovascular Disease",
+        "value": "Cardiovascular Disease",
+        "id": "IGQdwCEWqxs",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Diabetes",
+        "value": "Diabetes",
+        "id": "coUb4QcuVKI",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Liver Disease",
+        "value": "Liver Disease",
+        "id": "j6LrBVzW3k4",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Neurological/Neuromuscular",
+        "value": "Neurological/Neuromuscular",
+        "id": "hcHUkwpjcDc",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Immunodeficiency",
+        "value": "Immunodeficiency",
+        "id": "UmXYz5bN9is",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Renal Disease",
+        "value": "Renal Disease",
+        "id": "SBRCbEvwCjZ",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Chronic Lung Disease",
+        "value": "Chronic Lung Disease",
+        "id": "TMwKRNAYuYB",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Malignancy",
+        "value": "Malignancy",
+        "id": "IliCwhlgfJq",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Underlying Condition - Other",
+        "value": "Underlying Condition - Other",
+        "id": "uNNfUKaj0gY",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Paralysis Progressed ≤3 days",
+        "value": "Paralysis Progressed ≤3 days",
+        "id": "GcbnqZa5fVr",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Site of Paralysis",
+        "value": "Site of Paralysis",
+        "id": "OEvF8yREm3r",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "LeftLeg", "code": "LeftLeg", "label": "Left Leg", "id": "qs3u8F55ago" },
+            { "value": "LeftArm", "code": "LeftArm", "label": "Left Arm", "id": "ajfknUZxnJf" },
+            { "value": "RightLeg", "code": "RightLeg", "label": "Right Leg", "id": "JLCRGua4bEf" },
+            { "value": "RightArm", "code": "RightArm", "label": "Right Arm", "id": "UA2bvIzWJYk" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Type of paralysis",
+        "value": "Type of paralysis",
+        "id": "evVcNFzl9we",
+        "optionSetValue": true,
+        "availableOptions": [
+            {
+                "value": "SuddenOnset",
+                "code": "SuddenOnset",
+                "label": "Sudden onset",
+                "id": "bEMExw2ZcXk"
+            },
+            {
+                "value": "Asymmetrical",
+                "code": "Asymmetrical",
+                "label": "Asymmetrical",
+                "id": "pgF5d5qmb8S"
+            },
+            {
+                "value": "SensationLoss",
+                "code": "SensationLoss",
+                "label": "Sensation Loss",
+                "id": "DuZqdalZnpw"
+            }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Diminished Muscle Tone",
+        "value": "Diminished Muscle Tone",
+        "id": "QmIcruBeTAF",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Diminished Reflexes",
+        "value": "Diminished Reflexes",
+        "id": "UZE3TF5fPeW",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Muscle Wasting",
+        "value": "Muscle Wasting",
+        "id": "njNZ2M7rIjs",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Muscle Weakness",
+        "value": "Muscle Weakness",
+        "id": "KOxIfDorNY1",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Site of the Injection",
+        "value": "Site of the Injection",
+        "id": "YMErOH9qd7L",
+        "optionSetValue": false
+    },
+
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Chills",
+        "value": "Chills",
+        "id": "jBkw8u7sVkG",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Date of symptoms onset",
+        "value": "Date of symptoms onset",
+        "id": "s3eoonJ8OJb",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Pregnancy",
+        "value": "Pregnancy",
+        "id": "TRanjlwhC84",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Hypertension",
+        "value": "Hypertension",
+        "id": "DbbrWq4rFPh",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Was the patient admitted to ICU?",
+        "value": "Was the patient admitted to ICU?",
+        "id": "eB3mTHxMtLe",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Was the patient intubated?",
+        "value": "Was the patient intubated?",
+        "id": "bPBdafWqhyg",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "On ECMO?",
+        "value": "On ECMO?",
+        "id": "jSCr3wfmnzH",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Interviewer's Name",
+        "value": "COVID_Interviewer's Name",
+        "id": "CvJsiC7uXFY",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Interviewer's Phone",
+        "value": "COVID_Interviewer's Phone",
+        "id": "JTWovJaXgxS",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Interviewer's Email",
+        "value": "COVID_Interviewer's Email",
+        "id": "s52IJ2zlEol",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Occupation",
+        "value": "COVID_Occupation",
+        "id": "IuwaCGsUr7w",
+        "optionSetValue": true,
+        "availableOptions": [
+            {
+                "value": "Healthcare worker",
+                "code": "Healthcare worker",
+                "label": "Healthcare worker",
+                "id": "NODf9REUpKJ"
+            },
+            {
+                "value": "Working with animals",
+                "code": "Working with animals",
+                "label": "Working with animals",
+                "id": "N6P1fFdtfW7"
+            },
+            {
+                "value": "Health laboratory worker ",
+                "code": "Health laboratory worker ",
+                "label": "Health laboratory worker ",
+                "id": "TQuJW2QyQiw"
+            },
+            {
+                "value": "Truck Driver",
+                "code": "Truck Driver",
+                "label": "Truck Driver",
+                "id": "yZLtUdgk18b"
+            },
+            { "value": "Farmer", "code": "Farmer", "label": "Farmer", "id": "zdr25xLJiro" },
+            { "value": "Butcher", "code": "Butcher", "label": "Butcher", "id": "vd2NqJ0C6uT" },
+            {
+                "value": "Hunter/trader of game meat",
+                "code": "Hunter/trader of game meat",
+                "label": "Hunter/trader of game meat",
+                "id": "vnT2cgpuDBt"
+            },
+            { "value": "Miner", "code": "Miner", "label": "Miner", "id": "lv5J21SRI4c" },
+            {
+                "value": "Religious leader",
+                "code": "Religious leader",
+                "label": "Religious leader",
+                "id": "tUwIT7CI0xL"
+            },
+            {
+                "value": "Housewife",
+                "code": "Housewife",
+                "label": "Housewife",
+                "id": "baOCKGNETNu"
+            },
+            { "value": "Student", "code": "Student", "label": "Student", "id": "iPLGVI6a6Zf" },
+            { "value": "Child", "code": "Child", "label": "Child", "id": "sMhFi5aCorW" },
+            {
+                "value": "Businessman/woman",
+                "code": "Businessman/woman",
+                "label": "Businessman/woman",
+                "id": "ej2B2WQHjvW"
+            },
+            {
+                "value": "Traditional/spiritual healer",
+                "code": "Traditional/spiritual healer",
+                "label": "Traditional/spiritual healer",
+                "id": "CmgDiZEo3zK"
+            },
+            { "value": "Peasant", "code": "Peasant", "label": "Peasant", "id": "AeaEvlzYJYP" },
+            { "value": "Other", "code": "Other", "label": "Other", "id": "Ltr7HHUgKlK" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Other occupation, specify",
+        "value": "COVID_Other occupation, specify",
+        "id": "jMlpubCBAqQ",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Has the patient travelled in the 14 days prior to symptom onset?",
+        "value": "COVID_Has the patient travelled in the 14 days prior to symptom onset?",
+        "id": "TzqawmlPkI5",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Country, City 1",
+        "value": "Country, City 1",
+        "id": "oomj0HzoQB5",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "AF", "label": "Afghanistan", "id": "hGJnSu14S4H" },
+            { "code": "AX", "label": "Aland Islands", "id": "jNHN0pOchoB" },
+            { "code": "AL", "label": "Albania", "id": "Bh4wWzctSjb" },
+            { "code": "DZ", "label": "Algeria", "id": "fjla1buVNJ1" },
+            { "code": "AS", "label": "American Samoa", "id": "hYLZM1WibDG" },
+            { "code": "AD", "label": "Andorra", "id": "Vy2kZ2xdywD" },
+            { "code": "AO", "label": "Angola", "id": "SMRVOAezK6m" },
+            { "code": "AI", "label": "Anguilla", "id": "TAtDifm7RQ2" },
+            { "code": "AQ", "label": "Antarctica", "id": "PJlpC0ulmxS" },
+            { "code": "AG", "label": "Antigua and Barbuda", "id": "zbLeaXBzQ0r" },
+            { "code": "AR", "label": "Argentina", "id": "ywRcbgzfJPh" },
+            { "code": "AM", "label": "Armenia", "id": "LOaaG2lAIFa" },
+            { "code": "AW", "label": "Aruba", "id": "t54DjoTR2p6" },
+            { "code": "AU", "label": "Australia", "id": "yW6IdVQov4u" },
+            { "code": "AT", "label": "Austria", "id": "m5ziJSjzRPE" },
+            { "code": "AZ", "label": "Azerbaijan", "id": "ea6F8vmxRXr" },
+            { "code": "BS", "label": "Bahamas", "id": "kzAod6laMdd" },
+            { "code": "BH", "label": "Bahrain", "id": "iJ2Z9ipAEe6" },
+            { "code": "BD", "label": "Bangladesh", "id": "Tk7FMD1MasS" },
+            { "code": "BB", "label": "Barbados", "id": "ynsA4tpFPiu" },
+            { "code": "BY", "label": "Belarus", "id": "agD66qYjXBj" },
+            { "code": "BE", "label": "Belgium", "id": "cPIpkDRqE0s" },
+            { "code": "BZ", "label": "Belize", "id": "ihkgYyvIpoJ" },
+            { "code": "BJ", "label": "Benin", "id": "tbGOoDQGapm" },
+            { "code": "BM", "label": "Bermuda", "id": "ofZoh1cmVIS" },
+            { "code": "BT", "label": "Bhutan", "id": "TqHJcgfYYO7" },
+            {
+                "value": "BO",
+                "code": "BO",
+                "label": "Bolivia (Plurinational State of)",
+                "id": "cFC9TG5T6rk"
+            },
+            {
+                "value": "BQ",
+                "code": "BQ",
+                "label": "Bonaire, Sint Eustatius and Saba",
+                "id": "JEvbk1d5kZz"
+            },
+            { "code": "BA", "label": "Bosnia and Herzegovina", "id": "W0yLTk0cm95" },
+            { "code": "BW", "label": "Botswana", "id": "HwxSk7Bydgv" },
+            { "code": "BV", "label": "Bouvet Island", "id": "QUDg3f2Vykg" },
+            { "code": "BR", "label": "Brazil", "id": "k7rCWMSHHnW" },
+            { "code": "IO", "label": "British Indian Ocean Territory", "id": "XPbtS9mdWu0" },
+            { "code": "BN", "label": "Brunei Darussalam", "id": "RhgmAKhAC5q" },
+            { "code": "BG", "label": "Bulgaria", "id": "OxCmeYyS27P" },
+            { "code": "BF", "label": "Burkina Faso", "id": "ysELYlzPrdm" },
+            { "code": "BI", "label": "Burundi", "id": "Tip7kcFjydR" },
+            { "code": "CV", "label": "Cabo Verde", "id": "UNQndlLuT6z" },
+            { "code": "KH", "label": "Cambodia", "id": "ZMRxkXvOSHd" },
+            { "code": "CM", "label": "Cameroon", "id": "hYinhh33Smb" },
+            { "code": "CA", "label": "Canada", "id": "e73WCSot5Kz" },
+            { "code": "KY", "label": "Cayman Islands", "id": "jg2D4zXeOEW" },
+            { "code": "CF", "label": "Central African Republic", "id": "oEo4sOKVbxo" },
+            { "code": "TD", "label": "Chad", "id": "RIN4O3DOJ7i" },
+            { "code": "CL", "label": "Chile", "id": "iyOIO7u3rp2" },
+            { "code": "CN", "label": "China", "id": "IoNVJbgYCgK" },
+            { "code": "CX", "label": "Christmas Island", "id": "cns3VhQOOLT" },
+            { "code": "CC", "label": "Cocos (Keeling) Islands", "id": "djBN4hznuVx" },
+            { "code": "CO", "label": "Colombia", "id": "Ap6L7fXfDeR" },
+            { "code": "KM", "label": "Comoros", "id": "ekNvWlcIqc6" },
+            { "code": "CG", "label": "Congo", "id": "gdaMM4iITdU" },
+            {
+                "value": "CD",
+                "code": "CD",
+                "label": "Congo (Democratic Republic of the)",
+                "id": "TULAmCgYERZ"
+            },
+            { "code": "CK", "label": "Cook Islands", "id": "df2Z1m4wiDH" },
+            { "code": "CR", "label": "Costa Rica", "id": "gUv8NQnweWA" },
+            { "code": "CI", "label": "Cote d'Ivoire", "id": "irKCzydHfvQ" },
+            { "code": "HR", "label": "Croatia", "id": "z90AdvvHWFs" },
+            { "code": "CU", "label": "Cuba", "id": "slZk3s6xPoM" },
+            { "code": "CW", "label": "Curacao", "id": "hH0Hy1NEJLt" },
+            { "code": "CY", "label": "Cyprus", "id": "LdQF1sPxdxF" },
+            { "code": "CZ", "label": "Czech Republic", "id": "EbLJJJfvsfk" },
+            { "code": "DK", "label": "Denmark", "id": "Dbq4nnM2YAX" },
+            { "code": "DJ", "label": "Djibouti", "id": "j18ViLv3bH0" },
+            { "code": "DM", "label": "Dominica", "id": "on9E0VYO7Fn" },
+            { "code": "DO", "label": "Dominican Republic", "id": "VEzuYX8hkAt" },
+            { "code": "EC", "label": "Ecuador", "id": "WAdbLIjOMui" },
+            { "code": "EG", "label": "Egypt", "id": "HStdRZPlcpd" },
+            { "code": "SV", "label": "El Salvador", "id": "LqtYpN1esYr" },
+            { "code": "GQ", "label": "Equatorial Guinea", "id": "D7X0HISqZFG" },
+            { "code": "ER", "label": "Eritrea", "id": "bC7LkeM89FC" },
+            { "code": "EE", "label": "Estonia", "id": "qEznaEpFnJr" },
+            { "code": "ET", "label": "Ethiopia", "id": "ZNlpMAULihV" },
+            { "code": "FK", "label": "Falkland Islands (Malvinas)", "id": "bef2vVeR23P" },
+            { "code": "FO", "label": "Faroe Islands", "id": "t3xIkfi2H9B" },
+            { "code": "FJ", "label": "Fiji", "id": "zFR8DxViVCF" },
+            { "code": "FI", "label": "Finland", "id": "CVzjZYuAWYN" },
+            { "code": "FR", "label": "France", "id": "yUGs4f8ERRO" },
+            { "code": "GF", "label": "French Guiana", "id": "buoSIj3Vwra" },
+            { "code": "PF", "label": "French Polynesia", "id": "tp6tO0mcWi3" },
+            { "code": "TF", "label": "French Southern Territories", "id": "kCQuehGwFao" },
+            { "code": "GA", "label": "Gabon", "id": "ITLH48ZUffA" },
+            { "code": "GM", "label": "Gambia", "id": "ACPpkQT2y2F" },
+            { "code": "GE", "label": "Georgia", "id": "QZe0b0vBdRx" },
+            { "code": "DE", "label": "Germany", "id": "F7VjKLOSKYQ" },
+            { "code": "GH", "label": "Ghana", "id": "O80pXVxnTv0" },
+            { "code": "GI", "label": "Gibraltar", "id": "XgXpDOKZfIX" },
+            { "code": "GR", "label": "Greece", "id": "ic83mV0Np1K" },
+            { "code": "GL", "label": "Greenland", "id": "PxDnUHCZFYV" },
+            { "code": "GD", "label": "Grenada", "id": "F0bPny0RATH" },
+            { "code": "GP", "label": "Guadeloupe", "id": "zYa1MKY2G3d" },
+            { "code": "GU", "label": "Guam", "id": "lbhBF8S5JoR" },
+            { "code": "GT", "label": "Guatemala", "id": "okjtUpqkBY0" },
+            { "code": "GG", "label": "Guernsey", "id": "QlGDgVLB9Mg" },
+            { "code": "GN", "label": "Guinea", "id": "yqF1sleXWu4" },
+            { "code": "GW", "label": "Guinea-Bissau", "id": "b226WlAQhQT" },
+            { "code": "GY", "label": "Guyana", "id": "l2pI0kEQo1x" },
+            { "code": "HT", "label": "Haiti", "id": "hgQ5KIZRzrq" },
+            {
+                "value": "HM",
+                "code": "HM",
+                "label": "Heard Island and McDonald Islands",
+                "id": "UqDKVzW7N6x"
+            },
+            { "code": "VA", "label": "Holy See", "id": "UPgq5yBhzma" },
+            { "code": "HN", "label": "Honduras", "id": "guqDJE0tEhz" },
+            { "code": "HK", "label": "Hong Kong", "id": "ehSp3aJDOhB" },
+            { "code": "HU", "label": "Hungary", "id": "M0vvlGGO2ET" },
+            { "code": "IS", "label": "Iceland", "id": "oCqAUWB1AK0" },
+            { "code": "IN", "label": "India", "id": "snaU0ZUJ03A" },
+            { "code": "ID", "label": "Indonesia", "id": "Ls7DhgvN3M9" },
+            { "code": "IR", "label": "Iran (Islamic Republic of)", "id": "bvxdOvWV0Qt" },
+            { "code": "IQ", "label": "Iraq", "id": "kpEvOGtOaJa" },
+            { "code": "IE", "label": "Ireland", "id": "PahOgLwCZMg" },
+            { "code": "IM", "label": "Isle of Man", "id": "GgpJFlPRlXZ" },
+            { "code": "IL", "label": "Israel", "id": "GeUERumufaz" },
+            { "code": "IT", "label": "Italy", "id": "sHSgXweCFwT" },
+            { "code": "JM", "label": "Jamaica", "id": "c2gkADoIq0a" },
+            { "code": "JP", "label": "Japan", "id": "Iyxt9soGc5i" },
+            { "code": "JE", "label": "Jersey", "id": "wW0cTJr4QvY" },
+            { "code": "JO", "label": "Jordan", "id": "Dz0ikE8Opef" },
+            { "code": "KZ", "label": "Kazakhstan", "id": "CxA2f0AZM2H" },
+            { "code": "KE", "label": "Kenya", "id": "cCIXvPLzsUj" },
+            { "code": "KI", "label": "Kiribati", "id": "ysv73lzyfPU" },
+            {
+                "value": "KP",
+                "code": "KP",
+                "label": "Korea (Democratic People's Republic of)",
+                "id": "W26NWlPaIJD"
+            },
+            { "code": "KR", "label": "Korea (Republic of)", "id": "wrMAg1FeNEH" },
+            { "code": "KW", "label": "Kuwait", "id": "Rk3W9BRd1D6" },
+            { "code": "KG", "label": "Kyrgyzstan", "id": "FLWvmb7Fngv" },
+            {
+                "value": "LA",
+                "code": "LA",
+                "label": "Lao People's Democratic Republic",
+                "id": "hmmPhRwpYlN"
+            },
+            { "code": "LV", "label": "Latvia", "id": "PNloUnfVthd" },
+            { "code": "LB", "label": "Lebanon", "id": "khbm7vs5OVf" },
+            { "code": "LS", "label": "Lesotho", "id": "JBUNAoY2UCR" },
+            { "code": "LR", "label": "Liberia", "id": "jX4Q0C4e5Wz" },
+            { "code": "LY", "label": "Libya", "id": "aWdKmnUbyq8" },
+            { "code": "LI", "label": "Liechtenstein", "id": "YFBUwHreFty" },
+            { "code": "LT", "label": "Lithuania", "id": "NgE7dxvafzN" },
+            { "code": "LU", "label": "Luxembourg", "id": "Lcpj9JRPN6A" },
+            { "code": "MO", "label": "Macao", "id": "Ud37kwuqYOX" },
+            {
+                "value": "MK",
+                "code": "MK",
+                "label": "Macedonia (the former Yugoslav Republic of)",
+                "id": "ol616QD7y9v"
+            },
+            { "code": "MG", "label": "Madagascar", "id": "V9dlKIBeEt5" },
+            { "code": "MW", "label": "Malawi", "id": "ZJKBOoWeZK8" },
+            { "code": "MY", "label": "Malaysia", "id": "TbqJLwX75MB" },
+            { "code": "MV", "label": "Maldives", "id": "cz1jjVYazCU" },
+            { "code": "ML", "label": "Mali", "id": "vaAP0kIZoWc" },
+            { "code": "MT", "label": "Malta", "id": "oUZwMtRc9UZ" },
+            { "code": "MH", "label": "Marshall Islands", "id": "FTShlPn5hKZ" },
+            { "code": "MQ", "label": "Martinique", "id": "PXW5S4tsyeU" },
+            { "code": "MR", "label": "Mauritania", "id": "zSqkhuvMIJx" },
+            { "code": "MU", "label": "Mauritius", "id": "phk8e9YUIyk" },
+            { "code": "YT", "label": "Mayotte", "id": "Lr41AxFkOoQ" },
+            { "code": "MX", "label": "Mexico", "id": "AZKUCGpgtzT" },
+            {
+                "value": "FM",
+                "code": "FM",
+                "label": "Micronesia (Federated States of)",
+                "id": "gr2CYy3Dr56"
+            },
+            { "code": "MD", "label": "Moldova (Republic of)", "id": "n8HXfqEC7qW" },
+            { "code": "MC", "label": "Monaco", "id": "zJVqezCOVEw" },
+            { "code": "MN", "label": "Mongolia", "id": "goMYgrWwzxj" },
+            { "code": "ME", "label": "Montenegro", "id": "YMAWw8lGmVz" },
+            { "code": "MS", "label": "Montserrat", "id": "BFKxH53DgZ4" },
+            { "code": "MA", "label": "Morocco", "id": "jpFFUofjPzL" },
+            { "code": "MZ", "label": "Mozambique", "id": "Qodq6bOTBgk" },
+            { "code": "MM", "label": "Myanmar", "id": "HHpmrOG4Oah" },
+            { "code": "NA", "label": "Namibia", "id": "o3FDUKEuK9I" },
+            { "code": "NR", "label": "Nauru", "id": "CqUzE4oAeMo" },
+            { "code": "NP", "label": "Nepal", "id": "G3wJAW7bEqO" },
+            { "code": "NL", "label": "Netherlands", "id": "XhVZiHLpMnJ" },
+            { "code": "NC", "label": "New Caledonia", "id": "SFnJXKHtNPT" },
+            { "code": "NZ", "label": "New Zealand", "id": "NbSAL47OfTk" },
+            { "code": "NI", "label": "Nicaragua", "id": "G9i0iHpkYbp" },
+            { "code": "NE", "label": "Niger", "id": "isQUPKHcs6X" },
+            { "code": "NG", "label": "Nigeria", "id": "i6mNzSoi00T" },
+            { "code": "NU", "label": "Niue", "id": "fsojvbtJaQ9" },
+            { "code": "NF", "label": "Norfolk Island", "id": "CHVoLfGmFbt" },
+            { "code": "MP", "label": "Northern Mariana Islands", "id": "DnKpeOCqfDu" },
+            { "code": "NO", "label": "Norway", "id": "abXMcNMfUHW" },
+            { "code": "OM", "label": "Oman", "id": "KCS77S1n8yE" },
+            { "code": "PK", "label": "Pakistan", "id": "Vd3efHrokOx" },
+            { "code": "PW", "label": "Palau", "id": "nuJCiz6sWMs" },
+            { "code": "PS", "label": "Palestine, State of", "id": "PSXaRzhAoO5" },
+            { "code": "PA", "label": "Panama", "id": "Z4UIfFiFuMC" },
+            { "code": "PG", "label": "Papua New Guinea", "id": "y5Edd8OyiIS" },
+            { "code": "PY", "label": "Paraguay", "id": "JtLlBt8z3Th" },
+            { "code": "PE", "label": "Peru", "id": "u0Iy4qXUpGx" },
+            { "code": "PH", "label": "Philippines", "id": "Hn8n03RTQoy" },
+            { "code": "PN", "label": "Pitcairn", "id": "UH9iMU8RCbR" },
+            { "code": "PL", "label": "Poland", "id": "TgDFVQK8poQ" },
+            { "code": "PT", "label": "Portugal", "id": "fJGUZnvCg0m" },
+            { "code": "PR", "label": "Puerto Rico", "id": "pMggNgUQ24t" },
+            { "code": "QA", "label": "Qatar", "id": "YBnIVZiENSl" },
+            { "code": "RE", "label": "Reunion", "id": "dyHaYgO8uRD" },
+            { "code": "RO", "label": "Romania", "id": "fDggEkf3s9Q" },
+            { "code": "RU", "label": "Russian Federation", "id": "Vh7og15xjfI" },
+            { "code": "RW", "label": "Rwanda", "id": "XFtEiGSEM5K" },
+            { "code": "BL", "label": "Saint Barthalemy", "id": "TlWg479ykNG" },
+            {
+                "value": "SH",
+                "code": "SH",
+                "label": "Saint Helena, Ascension and Tristan da Cunha",
+                "id": "AbZ1Ahy2uzF"
+            },
+            { "code": "KN", "label": "Saint Kitts and Nevis", "id": "Vx5yJqEFdiG" },
+            { "code": "LC", "label": "Saint Lucia", "id": "oJtdF4dJlKR" },
+            { "code": "MF", "label": "Saint Martin (French part)", "id": "Fjs0ekdnQp4" },
+            { "code": "PM", "label": "Saint Pierre and Miquelon", "id": "cuBbK1kGxQG" },
+            {
+                "value": "VC",
+                "code": "VC",
+                "label": "Saint Vincent and the Grenadines",
+                "id": "CgCPhepq1T0"
+            },
+            { "code": "WS", "label": "Samoa", "id": "OiiQDTwRhiJ" },
+            { "code": "SM", "label": "San Marino", "id": "kgx4yTXnCm5" },
+            { "code": "ST", "label": "Sao Tome and Principe", "id": "ot9j1RhdTxJ" },
+            { "code": "SA", "label": "Saudi Arabia", "id": "K2Z3GIjbpfy" },
+            { "code": "SN", "label": "Senegal", "id": "IjeQQN6i6oB" },
+            { "code": "RS", "label": "Serbia", "id": "mwQoRreFhS4" },
+            { "code": "SC", "label": "Seychelles", "id": "nslF0rp6DYP" },
+            { "code": "SL", "label": "Sierra Leone", "id": "m5Mzp8gH9SE" },
+            { "code": "SG", "label": "Singapore", "id": "pGtXTzwNgYJ" },
+            { "code": "SX", "label": "Sint Maarten (Dutch part)", "id": "wU06ZppIUrr" },
+            { "code": "SK", "label": "Slovakia", "id": "SVkuqbtbwkn" },
+            { "code": "SI", "label": "Slovenia", "id": "tgZNiP0av9R" },
+            { "code": "SB", "label": "Solomon Islands", "id": "C6mh8woRILR" },
+            { "code": "SO", "label": "Somalia", "id": "XUAgsUvnd9D" },
+            { "code": "ZA", "label": "South Africa", "id": "ybi90nX7jIG" },
+            {
+                "value": "GS",
+                "code": "GS",
+                "label": "South Georgia and the South Sandwich Islands",
+                "id": "xscRY8jGm4I"
+            },
+            { "code": "SS", "label": "South Sudan", "id": "nucHGYLnDym" },
+            { "code": "ES", "label": "Spain", "id": "AWCr3B2Ec6K" },
+            { "code": "LK", "label": "Sri Lanka", "id": "vVm2PrIRCZb" },
+            { "code": "SD", "label": "Sudan", "id": "tmChdi1uORn" },
+            { "code": "SR", "label": "Suriname", "id": "dsiiSBdkIOV" },
+            { "code": "SJ", "label": "Svalbard and Jan Mayen", "id": "HvsdUX9XzqA" },
+            { "code": "SZ", "label": "Swaziland", "id": "LSa01WRIEoa" },
+            { "code": "SE", "label": "Sweden", "id": "BkyPw8ckTNY" },
+            { "code": "CH", "label": "Switzerland", "id": "TtTR0Yl2wu4" },
+            { "code": "SY", "label": "Syrian Arab Republic", "id": "rWZk1zIRhxd" },
+            { "code": "TW", "label": "Taiwan, Province of China", "id": "YiWILyGjKnW" },
+            { "code": "TJ", "label": "Tajikistan", "id": "z3ciloHD9PX" },
+            { "code": "TZ", "label": "Tanzania, United Republic of", "id": "EfbDHbL0WVR" },
+            { "code": "TH", "label": "Thailand", "id": "NgOETSb20pt" },
+            { "code": "TL", "label": "Timor-Leste", "id": "GHlYciOJcc3" },
+            { "code": "TG", "label": "Togo", "id": "lxBYLgAGHyI" },
+            { "code": "TK", "label": "Tokelau", "id": "ysx0MV7RW2X" },
+            { "code": "TO", "label": "Tonga", "id": "E8gQhClNFbP" },
+            { "code": "TT", "label": "Trinidad and Tobago", "id": "vpOUqs1VdKL" },
+            { "code": "TN", "label": "Tunisia", "id": "f5ZqqjsV2PJ" },
+            { "code": "TR", "label": "Turkey", "id": "cpSzNk48yTR" },
+            { "code": "TM", "label": "Turkmenistan", "id": "ziovQhoHqXQ" },
+            { "code": "TC", "label": "Turks and Caicos Islands", "id": "PxkPTw9fbIk" },
+            { "code": "TV", "label": "Tuvalu", "id": "RuqZKue3rFr" },
+            { "code": "UG", "label": "Uganda", "id": "clThxUwFWOz" },
+            { "code": "UA", "label": "Ukraine", "id": "N1cS8AIDi1q" },
+            { "code": "AE", "label": "United Arab Emirates", "id": "PDxzpx08WBj" },
+            {
+                "value": "GB",
+                "code": "GB",
+                "label": "United Kingdom of Great Britain and Northern Ireland",
+                "id": "QBbuw7ibNxz"
+            },
+            {
+                "value": "UM",
+                "code": "UM",
+                "label": "United States Minor Outlying Islands",
+                "id": "slJul3ojjA4"
+            },
+            { "code": "US", "label": "United States of America", "id": "rFyxYwKsUHn" },
+            { "code": "UY", "label": "Uruguay", "id": "J6NKBEYkEIX" },
+            { "code": "UZ", "label": "Uzbekistan", "id": "MZtPirsiobx" },
+            { "code": "VU", "label": "Vanuatu", "id": "zz44ZJwE4BC" },
+            {
+                "value": "VE",
+                "code": "VE",
+                "label": "Venezuela (Bolivarian Republic of)",
+                "id": "aO1V8Km6tIa"
+            },
+            { "code": "VN", "label": "Viet Nam", "id": "alllxGOxa3E" },
+            { "code": "VG", "label": "Virgin Islands (British)", "id": "yKhE8gOOm3t" },
+            { "code": "VI", "label": "Virgin Islands (U.S.)", "id": "MmfxULjuTXH" },
+            { "code": "WF", "label": "Wallis and Futuna", "id": "ctQxqa1n0Ki" },
+            { "code": "EH", "label": "Western Sahara", "id": "NdVZXFSvX7t" },
+            { "code": "YE", "label": "Yemen", "id": "oJ7nxbnJtlz" },
+            { "code": "ZM", "label": "Zambia", "id": "SJm6VUYbovd" },
+            { "code": "ZW", "label": "Zimbabwe", "id": "YULlOdKf9DK" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Health care setting (acute respiratory infection)",
+        "value": "COVID_Health care setting (acute respiratory infection)",
+        "id": "y4oilvA8mVy",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Country, City 2",
+        "value": "Country, City 2",
+        "id": "oPEL0yUsFJ6",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "AF", "label": "Afghanistan", "id": "hGJnSu14S4H" },
+            { "code": "AX", "label": "Aland Islands", "id": "jNHN0pOchoB" },
+            { "code": "AL", "label": "Albania", "id": "Bh4wWzctSjb" },
+            { "code": "DZ", "label": "Algeria", "id": "fjla1buVNJ1" },
+            { "code": "AS", "label": "American Samoa", "id": "hYLZM1WibDG" },
+            { "code": "AD", "label": "Andorra", "id": "Vy2kZ2xdywD" },
+            { "code": "AO", "label": "Angola", "id": "SMRVOAezK6m" },
+            { "code": "AI", "label": "Anguilla", "id": "TAtDifm7RQ2" },
+            { "code": "AQ", "label": "Antarctica", "id": "PJlpC0ulmxS" },
+            { "code": "AG", "label": "Antigua and Barbuda", "id": "zbLeaXBzQ0r" },
+            { "code": "AR", "label": "Argentina", "id": "ywRcbgzfJPh" },
+            { "code": "AM", "label": "Armenia", "id": "LOaaG2lAIFa" },
+            { "code": "AW", "label": "Aruba", "id": "t54DjoTR2p6" },
+            { "code": "AU", "label": "Australia", "id": "yW6IdVQov4u" },
+            { "code": "AT", "label": "Austria", "id": "m5ziJSjzRPE" },
+            { "code": "AZ", "label": "Azerbaijan", "id": "ea6F8vmxRXr" },
+            { "code": "BS", "label": "Bahamas", "id": "kzAod6laMdd" },
+            { "code": "BH", "label": "Bahrain", "id": "iJ2Z9ipAEe6" },
+            { "code": "BD", "label": "Bangladesh", "id": "Tk7FMD1MasS" },
+            { "code": "BB", "label": "Barbados", "id": "ynsA4tpFPiu" },
+            { "code": "BY", "label": "Belarus", "id": "agD66qYjXBj" },
+            { "code": "BE", "label": "Belgium", "id": "cPIpkDRqE0s" },
+            { "code": "BZ", "label": "Belize", "id": "ihkgYyvIpoJ" },
+            { "code": "BJ", "label": "Benin", "id": "tbGOoDQGapm" },
+            { "code": "BM", "label": "Bermuda", "id": "ofZoh1cmVIS" },
+            { "code": "BT", "label": "Bhutan", "id": "TqHJcgfYYO7" },
+            {
+                "value": "BO",
+                "code": "BO",
+                "label": "Bolivia (Plurinational State of)",
+                "id": "cFC9TG5T6rk"
+            },
+            {
+                "value": "BQ",
+                "code": "BQ",
+                "label": "Bonaire, Sint Eustatius and Saba",
+                "id": "JEvbk1d5kZz"
+            },
+            { "code": "BA", "label": "Bosnia and Herzegovina", "id": "W0yLTk0cm95" },
+            { "code": "BW", "label": "Botswana", "id": "HwxSk7Bydgv" },
+            { "code": "BV", "label": "Bouvet Island", "id": "QUDg3f2Vykg" },
+            { "code": "BR", "label": "Brazil", "id": "k7rCWMSHHnW" },
+            { "code": "IO", "label": "British Indian Ocean Territory", "id": "XPbtS9mdWu0" },
+            { "code": "BN", "label": "Brunei Darussalam", "id": "RhgmAKhAC5q" },
+            { "code": "BG", "label": "Bulgaria", "id": "OxCmeYyS27P" },
+            { "code": "BF", "label": "Burkina Faso", "id": "ysELYlzPrdm" },
+            { "code": "BI", "label": "Burundi", "id": "Tip7kcFjydR" },
+            { "code": "CV", "label": "Cabo Verde", "id": "UNQndlLuT6z" },
+            { "code": "KH", "label": "Cambodia", "id": "ZMRxkXvOSHd" },
+            { "code": "CM", "label": "Cameroon", "id": "hYinhh33Smb" },
+            { "code": "CA", "label": "Canada", "id": "e73WCSot5Kz" },
+            { "code": "KY", "label": "Cayman Islands", "id": "jg2D4zXeOEW" },
+            { "code": "CF", "label": "Central African Republic", "id": "oEo4sOKVbxo" },
+            { "code": "TD", "label": "Chad", "id": "RIN4O3DOJ7i" },
+            { "code": "CL", "label": "Chile", "id": "iyOIO7u3rp2" },
+            { "code": "CN", "label": "China", "id": "IoNVJbgYCgK" },
+            { "code": "CX", "label": "Christmas Island", "id": "cns3VhQOOLT" },
+            { "code": "CC", "label": "Cocos (Keeling) Islands", "id": "djBN4hznuVx" },
+            { "code": "CO", "label": "Colombia", "id": "Ap6L7fXfDeR" },
+            { "code": "KM", "label": "Comoros", "id": "ekNvWlcIqc6" },
+            { "code": "CG", "label": "Congo", "id": "gdaMM4iITdU" },
+            {
+                "value": "CD",
+                "code": "CD",
+                "label": "Congo (Democratic Republic of the)",
+                "id": "TULAmCgYERZ"
+            },
+            { "code": "CK", "label": "Cook Islands", "id": "df2Z1m4wiDH" },
+            { "code": "CR", "label": "Costa Rica", "id": "gUv8NQnweWA" },
+            { "code": "CI", "label": "Cote d'Ivoire", "id": "irKCzydHfvQ" },
+            { "code": "HR", "label": "Croatia", "id": "z90AdvvHWFs" },
+            { "code": "CU", "label": "Cuba", "id": "slZk3s6xPoM" },
+            { "code": "CW", "label": "Curacao", "id": "hH0Hy1NEJLt" },
+            { "code": "CY", "label": "Cyprus", "id": "LdQF1sPxdxF" },
+            { "code": "CZ", "label": "Czech Republic", "id": "EbLJJJfvsfk" },
+            { "code": "DK", "label": "Denmark", "id": "Dbq4nnM2YAX" },
+            { "code": "DJ", "label": "Djibouti", "id": "j18ViLv3bH0" },
+            { "code": "DM", "label": "Dominica", "id": "on9E0VYO7Fn" },
+            { "code": "DO", "label": "Dominican Republic", "id": "VEzuYX8hkAt" },
+            { "code": "EC", "label": "Ecuador", "id": "WAdbLIjOMui" },
+            { "code": "EG", "label": "Egypt", "id": "HStdRZPlcpd" },
+            { "code": "SV", "label": "El Salvador", "id": "LqtYpN1esYr" },
+            { "code": "GQ", "label": "Equatorial Guinea", "id": "D7X0HISqZFG" },
+            { "code": "ER", "label": "Eritrea", "id": "bC7LkeM89FC" },
+            { "code": "EE", "label": "Estonia", "id": "qEznaEpFnJr" },
+            { "code": "ET", "label": "Ethiopia", "id": "ZNlpMAULihV" },
+            { "code": "FK", "label": "Falkland Islands (Malvinas)", "id": "bef2vVeR23P" },
+            { "code": "FO", "label": "Faroe Islands", "id": "t3xIkfi2H9B" },
+            { "code": "FJ", "label": "Fiji", "id": "zFR8DxViVCF" },
+            { "code": "FI", "label": "Finland", "id": "CVzjZYuAWYN" },
+            { "code": "FR", "label": "France", "id": "yUGs4f8ERRO" },
+            { "code": "GF", "label": "French Guiana", "id": "buoSIj3Vwra" },
+            { "code": "PF", "label": "French Polynesia", "id": "tp6tO0mcWi3" },
+            { "code": "TF", "label": "French Southern Territories", "id": "kCQuehGwFao" },
+            { "code": "GA", "label": "Gabon", "id": "ITLH48ZUffA" },
+            { "code": "GM", "label": "Gambia", "id": "ACPpkQT2y2F" },
+            { "code": "GE", "label": "Georgia", "id": "QZe0b0vBdRx" },
+            { "code": "DE", "label": "Germany", "id": "F7VjKLOSKYQ" },
+            { "code": "GH", "label": "Ghana", "id": "O80pXVxnTv0" },
+            { "code": "GI", "label": "Gibraltar", "id": "XgXpDOKZfIX" },
+            { "code": "GR", "label": "Greece", "id": "ic83mV0Np1K" },
+            { "code": "GL", "label": "Greenland", "id": "PxDnUHCZFYV" },
+            { "code": "GD", "label": "Grenada", "id": "F0bPny0RATH" },
+            { "code": "GP", "label": "Guadeloupe", "id": "zYa1MKY2G3d" },
+            { "code": "GU", "label": "Guam", "id": "lbhBF8S5JoR" },
+            { "code": "GT", "label": "Guatemala", "id": "okjtUpqkBY0" },
+            { "code": "GG", "label": "Guernsey", "id": "QlGDgVLB9Mg" },
+            { "code": "GN", "label": "Guinea", "id": "yqF1sleXWu4" },
+            { "code": "GW", "label": "Guinea-Bissau", "id": "b226WlAQhQT" },
+            { "code": "GY", "label": "Guyana", "id": "l2pI0kEQo1x" },
+            { "code": "HT", "label": "Haiti", "id": "hgQ5KIZRzrq" },
+            {
+                "value": "HM",
+                "code": "HM",
+                "label": "Heard Island and McDonald Islands",
+                "id": "UqDKVzW7N6x"
+            },
+            { "code": "VA", "label": "Holy See", "id": "UPgq5yBhzma" },
+            { "code": "HN", "label": "Honduras", "id": "guqDJE0tEhz" },
+            { "code": "HK", "label": "Hong Kong", "id": "ehSp3aJDOhB" },
+            { "code": "HU", "label": "Hungary", "id": "M0vvlGGO2ET" },
+            { "code": "IS", "label": "Iceland", "id": "oCqAUWB1AK0" },
+            { "code": "IN", "label": "India", "id": "snaU0ZUJ03A" },
+            { "code": "ID", "label": "Indonesia", "id": "Ls7DhgvN3M9" },
+            { "code": "IR", "label": "Iran (Islamic Republic of)", "id": "bvxdOvWV0Qt" },
+            { "code": "IQ", "label": "Iraq", "id": "kpEvOGtOaJa" },
+            { "code": "IE", "label": "Ireland", "id": "PahOgLwCZMg" },
+            { "code": "IM", "label": "Isle of Man", "id": "GgpJFlPRlXZ" },
+            { "code": "IL", "label": "Israel", "id": "GeUERumufaz" },
+            { "code": "IT", "label": "Italy", "id": "sHSgXweCFwT" },
+            { "code": "JM", "label": "Jamaica", "id": "c2gkADoIq0a" },
+            { "code": "JP", "label": "Japan", "id": "Iyxt9soGc5i" },
+            { "code": "JE", "label": "Jersey", "id": "wW0cTJr4QvY" },
+            { "code": "JO", "label": "Jordan", "id": "Dz0ikE8Opef" },
+            { "code": "KZ", "label": "Kazakhstan", "id": "CxA2f0AZM2H" },
+            { "code": "KE", "label": "Kenya", "id": "cCIXvPLzsUj" },
+            { "code": "KI", "label": "Kiribati", "id": "ysv73lzyfPU" },
+            {
+                "value": "KP",
+                "code": "KP",
+                "label": "Korea (Democratic People's Republic of)",
+                "id": "W26NWlPaIJD"
+            },
+            { "code": "KR", "label": "Korea (Republic of)", "id": "wrMAg1FeNEH" },
+            { "code": "KW", "label": "Kuwait", "id": "Rk3W9BRd1D6" },
+            { "code": "KG", "label": "Kyrgyzstan", "id": "FLWvmb7Fngv" },
+            {
+                "value": "LA",
+                "code": "LA",
+                "label": "Lao People's Democratic Republic",
+                "id": "hmmPhRwpYlN"
+            },
+            { "code": "LV", "label": "Latvia", "id": "PNloUnfVthd" },
+            { "code": "LB", "label": "Lebanon", "id": "khbm7vs5OVf" },
+            { "code": "LS", "label": "Lesotho", "id": "JBUNAoY2UCR" },
+            { "code": "LR", "label": "Liberia", "id": "jX4Q0C4e5Wz" },
+            { "code": "LY", "label": "Libya", "id": "aWdKmnUbyq8" },
+            { "code": "LI", "label": "Liechtenstein", "id": "YFBUwHreFty" },
+            { "code": "LT", "label": "Lithuania", "id": "NgE7dxvafzN" },
+            { "code": "LU", "label": "Luxembourg", "id": "Lcpj9JRPN6A" },
+            { "code": "MO", "label": "Macao", "id": "Ud37kwuqYOX" },
+            {
+                "value": "MK",
+                "code": "MK",
+                "label": "Macedonia (the former Yugoslav Republic of)",
+                "id": "ol616QD7y9v"
+            },
+            { "code": "MG", "label": "Madagascar", "id": "V9dlKIBeEt5" },
+            { "code": "MW", "label": "Malawi", "id": "ZJKBOoWeZK8" },
+            { "code": "MY", "label": "Malaysia", "id": "TbqJLwX75MB" },
+            { "code": "MV", "label": "Maldives", "id": "cz1jjVYazCU" },
+            { "code": "ML", "label": "Mali", "id": "vaAP0kIZoWc" },
+            { "code": "MT", "label": "Malta", "id": "oUZwMtRc9UZ" },
+            { "code": "MH", "label": "Marshall Islands", "id": "FTShlPn5hKZ" },
+            { "code": "MQ", "label": "Martinique", "id": "PXW5S4tsyeU" },
+            { "code": "MR", "label": "Mauritania", "id": "zSqkhuvMIJx" },
+            { "code": "MU", "label": "Mauritius", "id": "phk8e9YUIyk" },
+            { "code": "YT", "label": "Mayotte", "id": "Lr41AxFkOoQ" },
+            { "code": "MX", "label": "Mexico", "id": "AZKUCGpgtzT" },
+            {
+                "value": "FM",
+                "code": "FM",
+                "label": "Micronesia (Federated States of)",
+                "id": "gr2CYy3Dr56"
+            },
+            { "code": "MD", "label": "Moldova (Republic of)", "id": "n8HXfqEC7qW" },
+            { "code": "MC", "label": "Monaco", "id": "zJVqezCOVEw" },
+            { "code": "MN", "label": "Mongolia", "id": "goMYgrWwzxj" },
+            { "code": "ME", "label": "Montenegro", "id": "YMAWw8lGmVz" },
+            { "code": "MS", "label": "Montserrat", "id": "BFKxH53DgZ4" },
+            { "code": "MA", "label": "Morocco", "id": "jpFFUofjPzL" },
+            { "code": "MZ", "label": "Mozambique", "id": "Qodq6bOTBgk" },
+            { "code": "MM", "label": "Myanmar", "id": "HHpmrOG4Oah" },
+            { "code": "NA", "label": "Namibia", "id": "o3FDUKEuK9I" },
+            { "code": "NR", "label": "Nauru", "id": "CqUzE4oAeMo" },
+            { "code": "NP", "label": "Nepal", "id": "G3wJAW7bEqO" },
+            { "code": "NL", "label": "Netherlands", "id": "XhVZiHLpMnJ" },
+            { "code": "NC", "label": "New Caledonia", "id": "SFnJXKHtNPT" },
+            { "code": "NZ", "label": "New Zealand", "id": "NbSAL47OfTk" },
+            { "code": "NI", "label": "Nicaragua", "id": "G9i0iHpkYbp" },
+            { "code": "NE", "label": "Niger", "id": "isQUPKHcs6X" },
+            { "code": "NG", "label": "Nigeria", "id": "i6mNzSoi00T" },
+            { "code": "NU", "label": "Niue", "id": "fsojvbtJaQ9" },
+            { "code": "NF", "label": "Norfolk Island", "id": "CHVoLfGmFbt" },
+            { "code": "MP", "label": "Northern Mariana Islands", "id": "DnKpeOCqfDu" },
+            { "code": "NO", "label": "Norway", "id": "abXMcNMfUHW" },
+            { "code": "OM", "label": "Oman", "id": "KCS77S1n8yE" },
+            { "code": "PK", "label": "Pakistan", "id": "Vd3efHrokOx" },
+            { "code": "PW", "label": "Palau", "id": "nuJCiz6sWMs" },
+            { "code": "PS", "label": "Palestine, State of", "id": "PSXaRzhAoO5" },
+            { "code": "PA", "label": "Panama", "id": "Z4UIfFiFuMC" },
+            { "code": "PG", "label": "Papua New Guinea", "id": "y5Edd8OyiIS" },
+            { "code": "PY", "label": "Paraguay", "id": "JtLlBt8z3Th" },
+            { "code": "PE", "label": "Peru", "id": "u0Iy4qXUpGx" },
+            { "code": "PH", "label": "Philippines", "id": "Hn8n03RTQoy" },
+            { "code": "PN", "label": "Pitcairn", "id": "UH9iMU8RCbR" },
+            { "code": "PL", "label": "Poland", "id": "TgDFVQK8poQ" },
+            { "code": "PT", "label": "Portugal", "id": "fJGUZnvCg0m" },
+            { "code": "PR", "label": "Puerto Rico", "id": "pMggNgUQ24t" },
+            { "code": "QA", "label": "Qatar", "id": "YBnIVZiENSl" },
+            { "code": "RE", "label": "Reunion", "id": "dyHaYgO8uRD" },
+            { "code": "RO", "label": "Romania", "id": "fDggEkf3s9Q" },
+            { "code": "RU", "label": "Russian Federation", "id": "Vh7og15xjfI" },
+            { "code": "RW", "label": "Rwanda", "id": "XFtEiGSEM5K" },
+            { "code": "BL", "label": "Saint Barthalemy", "id": "TlWg479ykNG" },
+            {
+                "value": "SH",
+                "code": "SH",
+                "label": "Saint Helena, Ascension and Tristan da Cunha",
+                "id": "AbZ1Ahy2uzF"
+            },
+            { "code": "KN", "label": "Saint Kitts and Nevis", "id": "Vx5yJqEFdiG" },
+            { "code": "LC", "label": "Saint Lucia", "id": "oJtdF4dJlKR" },
+            { "code": "MF", "label": "Saint Martin (French part)", "id": "Fjs0ekdnQp4" },
+            { "code": "PM", "label": "Saint Pierre and Miquelon", "id": "cuBbK1kGxQG" },
+            {
+                "value": "VC",
+                "code": "VC",
+                "label": "Saint Vincent and the Grenadines",
+                "id": "CgCPhepq1T0"
+            },
+            { "code": "WS", "label": "Samoa", "id": "OiiQDTwRhiJ" },
+            { "code": "SM", "label": "San Marino", "id": "kgx4yTXnCm5" },
+            { "code": "ST", "label": "Sao Tome and Principe", "id": "ot9j1RhdTxJ" },
+            { "code": "SA", "label": "Saudi Arabia", "id": "K2Z3GIjbpfy" },
+            { "code": "SN", "label": "Senegal", "id": "IjeQQN6i6oB" },
+            { "code": "RS", "label": "Serbia", "id": "mwQoRreFhS4" },
+            { "code": "SC", "label": "Seychelles", "id": "nslF0rp6DYP" },
+            { "code": "SL", "label": "Sierra Leone", "id": "m5Mzp8gH9SE" },
+            { "code": "SG", "label": "Singapore", "id": "pGtXTzwNgYJ" },
+            { "code": "SX", "label": "Sint Maarten (Dutch part)", "id": "wU06ZppIUrr" },
+            { "code": "SK", "label": "Slovakia", "id": "SVkuqbtbwkn" },
+            { "code": "SI", "label": "Slovenia", "id": "tgZNiP0av9R" },
+            { "code": "SB", "label": "Solomon Islands", "id": "C6mh8woRILR" },
+            { "code": "SO", "label": "Somalia", "id": "XUAgsUvnd9D" },
+            { "code": "ZA", "label": "South Africa", "id": "ybi90nX7jIG" },
+            {
+                "value": "GS",
+                "code": "GS",
+                "label": "South Georgia and the South Sandwich Islands",
+                "id": "xscRY8jGm4I"
+            },
+            { "code": "SS", "label": "South Sudan", "id": "nucHGYLnDym" },
+            { "code": "ES", "label": "Spain", "id": "AWCr3B2Ec6K" },
+            { "code": "LK", "label": "Sri Lanka", "id": "vVm2PrIRCZb" },
+            { "code": "SD", "label": "Sudan", "id": "tmChdi1uORn" },
+            { "code": "SR", "label": "Suriname", "id": "dsiiSBdkIOV" },
+            { "code": "SJ", "label": "Svalbard and Jan Mayen", "id": "HvsdUX9XzqA" },
+            { "code": "SZ", "label": "Swaziland", "id": "LSa01WRIEoa" },
+            { "code": "SE", "label": "Sweden", "id": "BkyPw8ckTNY" },
+            { "code": "CH", "label": "Switzerland", "id": "TtTR0Yl2wu4" },
+            { "code": "SY", "label": "Syrian Arab Republic", "id": "rWZk1zIRhxd" },
+            { "code": "TW", "label": "Taiwan, Province of China", "id": "YiWILyGjKnW" },
+            { "code": "TJ", "label": "Tajikistan", "id": "z3ciloHD9PX" },
+            { "code": "TZ", "label": "Tanzania, United Republic of", "id": "EfbDHbL0WVR" },
+            { "code": "TH", "label": "Thailand", "id": "NgOETSb20pt" },
+            { "code": "TL", "label": "Timor-Leste", "id": "GHlYciOJcc3" },
+            { "code": "TG", "label": "Togo", "id": "lxBYLgAGHyI" },
+            { "code": "TK", "label": "Tokelau", "id": "ysx0MV7RW2X" },
+            { "code": "TO", "label": "Tonga", "id": "E8gQhClNFbP" },
+            { "code": "TT", "label": "Trinidad and Tobago", "id": "vpOUqs1VdKL" },
+            { "code": "TN", "label": "Tunisia", "id": "f5ZqqjsV2PJ" },
+            { "code": "TR", "label": "Turkey", "id": "cpSzNk48yTR" },
+            { "code": "TM", "label": "Turkmenistan", "id": "ziovQhoHqXQ" },
+            { "code": "TC", "label": "Turks and Caicos Islands", "id": "PxkPTw9fbIk" },
+            { "code": "TV", "label": "Tuvalu", "id": "RuqZKue3rFr" },
+            { "code": "UG", "label": "Uganda", "id": "clThxUwFWOz" },
+            { "code": "UA", "label": "Ukraine", "id": "N1cS8AIDi1q" },
+            { "code": "AE", "label": "United Arab Emirates", "id": "PDxzpx08WBj" },
+            {
+                "value": "GB",
+                "code": "GB",
+                "label": "United Kingdom of Great Britain and Northern Ireland",
+                "id": "QBbuw7ibNxz"
+            },
+            {
+                "value": "UM",
+                "code": "UM",
+                "label": "United States Minor Outlying Islands",
+                "id": "slJul3ojjA4"
+            },
+            { "code": "US", "label": "United States of America", "id": "rFyxYwKsUHn" },
+            { "code": "UY", "label": "Uruguay", "id": "J6NKBEYkEIX" },
+            { "code": "UZ", "label": "Uzbekistan", "id": "MZtPirsiobx" },
+            { "code": "VU", "label": "Vanuatu", "id": "zz44ZJwE4BC" },
+            {
+                "value": "VE",
+                "code": "VE",
+                "label": "Venezuela (Bolivarian Republic of)",
+                "id": "aO1V8Km6tIa"
+            },
+            { "code": "VN", "label": "Viet Nam", "id": "alllxGOxa3E" },
+            { "code": "VG", "label": "Virgin Islands (British)", "id": "yKhE8gOOm3t" },
+            { "code": "VI", "label": "Virgin Islands (U.S.)", "id": "MmfxULjuTXH" },
+            { "code": "WF", "label": "Wallis and Futuna", "id": "ctQxqa1n0Ki" },
+            { "code": "EH", "label": "Western Sahara", "id": "NdVZXFSvX7t" },
+            { "code": "YE", "label": "Yemen", "id": "oJ7nxbnJtlz" },
+            { "code": "ZM", "label": "Zambia", "id": "SJm6VUYbovd" },
+            { "code": "ZW", "label": "Zimbabwe", "id": "YULlOdKf9DK" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Country, City 3",
+        "value": "Country, City 3",
+        "id": "mW7DtDdQBv3",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "AF", "label": "Afghanistan", "id": "hGJnSu14S4H" },
+            { "code": "AX", "label": "Aland Islands", "id": "jNHN0pOchoB" },
+            { "code": "AL", "label": "Albania", "id": "Bh4wWzctSjb" },
+            { "code": "DZ", "label": "Algeria", "id": "fjla1buVNJ1" },
+            { "code": "AS", "label": "American Samoa", "id": "hYLZM1WibDG" },
+            { "code": "AD", "label": "Andorra", "id": "Vy2kZ2xdywD" },
+            { "code": "AO", "label": "Angola", "id": "SMRVOAezK6m" },
+            { "code": "AI", "label": "Anguilla", "id": "TAtDifm7RQ2" },
+            { "code": "AQ", "label": "Antarctica", "id": "PJlpC0ulmxS" },
+            { "code": "AG", "label": "Antigua and Barbuda", "id": "zbLeaXBzQ0r" },
+            { "code": "AR", "label": "Argentina", "id": "ywRcbgzfJPh" },
+            { "code": "AM", "label": "Armenia", "id": "LOaaG2lAIFa" },
+            { "code": "AW", "label": "Aruba", "id": "t54DjoTR2p6" },
+            { "code": "AU", "label": "Australia", "id": "yW6IdVQov4u" },
+            { "code": "AT", "label": "Austria", "id": "m5ziJSjzRPE" },
+            { "code": "AZ", "label": "Azerbaijan", "id": "ea6F8vmxRXr" },
+            { "code": "BS", "label": "Bahamas", "id": "kzAod6laMdd" },
+            { "code": "BH", "label": "Bahrain", "id": "iJ2Z9ipAEe6" },
+            { "code": "BD", "label": "Bangladesh", "id": "Tk7FMD1MasS" },
+            { "code": "BB", "label": "Barbados", "id": "ynsA4tpFPiu" },
+            { "code": "BY", "label": "Belarus", "id": "agD66qYjXBj" },
+            { "code": "BE", "label": "Belgium", "id": "cPIpkDRqE0s" },
+            { "code": "BZ", "label": "Belize", "id": "ihkgYyvIpoJ" },
+            { "code": "BJ", "label": "Benin", "id": "tbGOoDQGapm" },
+            { "code": "BM", "label": "Bermuda", "id": "ofZoh1cmVIS" },
+            { "code": "BT", "label": "Bhutan", "id": "TqHJcgfYYO7" },
+            {
+                "value": "BO",
+                "code": "BO",
+                "label": "Bolivia (Plurinational State of)",
+                "id": "cFC9TG5T6rk"
+            },
+            {
+                "value": "BQ",
+                "code": "BQ",
+                "label": "Bonaire, Sint Eustatius and Saba",
+                "id": "JEvbk1d5kZz"
+            },
+            { "code": "BA", "label": "Bosnia and Herzegovina", "id": "W0yLTk0cm95" },
+            { "code": "BW", "label": "Botswana", "id": "HwxSk7Bydgv" },
+            { "code": "BV", "label": "Bouvet Island", "id": "QUDg3f2Vykg" },
+            { "code": "BR", "label": "Brazil", "id": "k7rCWMSHHnW" },
+            { "code": "IO", "label": "British Indian Ocean Territory", "id": "XPbtS9mdWu0" },
+            { "code": "BN", "label": "Brunei Darussalam", "id": "RhgmAKhAC5q" },
+            { "code": "BG", "label": "Bulgaria", "id": "OxCmeYyS27P" },
+            { "code": "BF", "label": "Burkina Faso", "id": "ysELYlzPrdm" },
+            { "code": "BI", "label": "Burundi", "id": "Tip7kcFjydR" },
+            { "code": "CV", "label": "Cabo Verde", "id": "UNQndlLuT6z" },
+            { "code": "KH", "label": "Cambodia", "id": "ZMRxkXvOSHd" },
+            { "code": "CM", "label": "Cameroon", "id": "hYinhh33Smb" },
+            { "code": "CA", "label": "Canada", "id": "e73WCSot5Kz" },
+            { "code": "KY", "label": "Cayman Islands", "id": "jg2D4zXeOEW" },
+            { "code": "CF", "label": "Central African Republic", "id": "oEo4sOKVbxo" },
+            { "code": "TD", "label": "Chad", "id": "RIN4O3DOJ7i" },
+            { "code": "CL", "label": "Chile", "id": "iyOIO7u3rp2" },
+            { "code": "CN", "label": "China", "id": "IoNVJbgYCgK" },
+            { "code": "CX", "label": "Christmas Island", "id": "cns3VhQOOLT" },
+            { "code": "CC", "label": "Cocos (Keeling) Islands", "id": "djBN4hznuVx" },
+            { "code": "CO", "label": "Colombia", "id": "Ap6L7fXfDeR" },
+            { "code": "KM", "label": "Comoros", "id": "ekNvWlcIqc6" },
+            { "code": "CG", "label": "Congo", "id": "gdaMM4iITdU" },
+            {
+                "value": "CD",
+                "code": "CD",
+                "label": "Congo (Democratic Republic of the)",
+                "id": "TULAmCgYERZ"
+            },
+            { "code": "CK", "label": "Cook Islands", "id": "df2Z1m4wiDH" },
+            { "code": "CR", "label": "Costa Rica", "id": "gUv8NQnweWA" },
+            { "code": "CI", "label": "Cote d'Ivoire", "id": "irKCzydHfvQ" },
+            { "code": "HR", "label": "Croatia", "id": "z90AdvvHWFs" },
+            { "code": "CU", "label": "Cuba", "id": "slZk3s6xPoM" },
+            { "code": "CW", "label": "Curacao", "id": "hH0Hy1NEJLt" },
+            { "code": "CY", "label": "Cyprus", "id": "LdQF1sPxdxF" },
+            { "code": "CZ", "label": "Czech Republic", "id": "EbLJJJfvsfk" },
+            { "code": "DK", "label": "Denmark", "id": "Dbq4nnM2YAX" },
+            { "code": "DJ", "label": "Djibouti", "id": "j18ViLv3bH0" },
+            { "code": "DM", "label": "Dominica", "id": "on9E0VYO7Fn" },
+            { "code": "DO", "label": "Dominican Republic", "id": "VEzuYX8hkAt" },
+            { "code": "EC", "label": "Ecuador", "id": "WAdbLIjOMui" },
+            { "code": "EG", "label": "Egypt", "id": "HStdRZPlcpd" },
+            { "code": "SV", "label": "El Salvador", "id": "LqtYpN1esYr" },
+            { "code": "GQ", "label": "Equatorial Guinea", "id": "D7X0HISqZFG" },
+            { "code": "ER", "label": "Eritrea", "id": "bC7LkeM89FC" },
+            { "code": "EE", "label": "Estonia", "id": "qEznaEpFnJr" },
+            { "code": "ET", "label": "Ethiopia", "id": "ZNlpMAULihV" },
+            { "code": "FK", "label": "Falkland Islands (Malvinas)", "id": "bef2vVeR23P" },
+            { "code": "FO", "label": "Faroe Islands", "id": "t3xIkfi2H9B" },
+            { "code": "FJ", "label": "Fiji", "id": "zFR8DxViVCF" },
+            { "code": "FI", "label": "Finland", "id": "CVzjZYuAWYN" },
+            { "code": "FR", "label": "France", "id": "yUGs4f8ERRO" },
+            { "code": "GF", "label": "French Guiana", "id": "buoSIj3Vwra" },
+            { "code": "PF", "label": "French Polynesia", "id": "tp6tO0mcWi3" },
+            { "code": "TF", "label": "French Southern Territories", "id": "kCQuehGwFao" },
+            { "code": "GA", "label": "Gabon", "id": "ITLH48ZUffA" },
+            { "code": "GM", "label": "Gambia", "id": "ACPpkQT2y2F" },
+            { "code": "GE", "label": "Georgia", "id": "QZe0b0vBdRx" },
+            { "code": "DE", "label": "Germany", "id": "F7VjKLOSKYQ" },
+            { "code": "GH", "label": "Ghana", "id": "O80pXVxnTv0" },
+            { "code": "GI", "label": "Gibraltar", "id": "XgXpDOKZfIX" },
+            { "code": "GR", "label": "Greece", "id": "ic83mV0Np1K" },
+            { "code": "GL", "label": "Greenland", "id": "PxDnUHCZFYV" },
+            { "code": "GD", "label": "Grenada", "id": "F0bPny0RATH" },
+            { "code": "GP", "label": "Guadeloupe", "id": "zYa1MKY2G3d" },
+            { "code": "GU", "label": "Guam", "id": "lbhBF8S5JoR" },
+            { "code": "GT", "label": "Guatemala", "id": "okjtUpqkBY0" },
+            { "code": "GG", "label": "Guernsey", "id": "QlGDgVLB9Mg" },
+            { "code": "GN", "label": "Guinea", "id": "yqF1sleXWu4" },
+            { "code": "GW", "label": "Guinea-Bissau", "id": "b226WlAQhQT" },
+            { "code": "GY", "label": "Guyana", "id": "l2pI0kEQo1x" },
+            { "code": "HT", "label": "Haiti", "id": "hgQ5KIZRzrq" },
+            {
+                "value": "HM",
+                "code": "HM",
+                "label": "Heard Island and McDonald Islands",
+                "id": "UqDKVzW7N6x"
+            },
+            { "code": "VA", "label": "Holy See", "id": "UPgq5yBhzma" },
+            { "code": "HN", "label": "Honduras", "id": "guqDJE0tEhz" },
+            { "code": "HK", "label": "Hong Kong", "id": "ehSp3aJDOhB" },
+            { "code": "HU", "label": "Hungary", "id": "M0vvlGGO2ET" },
+            { "code": "IS", "label": "Iceland", "id": "oCqAUWB1AK0" },
+            { "code": "IN", "label": "India", "id": "snaU0ZUJ03A" },
+            { "code": "ID", "label": "Indonesia", "id": "Ls7DhgvN3M9" },
+            { "code": "IR", "label": "Iran (Islamic Republic of)", "id": "bvxdOvWV0Qt" },
+            { "code": "IQ", "label": "Iraq", "id": "kpEvOGtOaJa" },
+            { "code": "IE", "label": "Ireland", "id": "PahOgLwCZMg" },
+            { "code": "IM", "label": "Isle of Man", "id": "GgpJFlPRlXZ" },
+            { "code": "IL", "label": "Israel", "id": "GeUERumufaz" },
+            { "code": "IT", "label": "Italy", "id": "sHSgXweCFwT" },
+            { "code": "JM", "label": "Jamaica", "id": "c2gkADoIq0a" },
+            { "code": "JP", "label": "Japan", "id": "Iyxt9soGc5i" },
+            { "code": "JE", "label": "Jersey", "id": "wW0cTJr4QvY" },
+            { "code": "JO", "label": "Jordan", "id": "Dz0ikE8Opef" },
+            { "code": "KZ", "label": "Kazakhstan", "id": "CxA2f0AZM2H" },
+            { "code": "KE", "label": "Kenya", "id": "cCIXvPLzsUj" },
+            { "code": "KI", "label": "Kiribati", "id": "ysv73lzyfPU" },
+            {
+                "value": "KP",
+                "code": "KP",
+                "label": "Korea (Democratic People's Republic of)",
+                "id": "W26NWlPaIJD"
+            },
+            { "code": "KR", "label": "Korea (Republic of)", "id": "wrMAg1FeNEH" },
+            { "code": "KW", "label": "Kuwait", "id": "Rk3W9BRd1D6" },
+            { "code": "KG", "label": "Kyrgyzstan", "id": "FLWvmb7Fngv" },
+            {
+                "value": "LA",
+                "code": "LA",
+                "label": "Lao People's Democratic Republic",
+                "id": "hmmPhRwpYlN"
+            },
+            { "code": "LV", "label": "Latvia", "id": "PNloUnfVthd" },
+            { "code": "LB", "label": "Lebanon", "id": "khbm7vs5OVf" },
+            { "code": "LS", "label": "Lesotho", "id": "JBUNAoY2UCR" },
+            { "code": "LR", "label": "Liberia", "id": "jX4Q0C4e5Wz" },
+            { "code": "LY", "label": "Libya", "id": "aWdKmnUbyq8" },
+            { "code": "LI", "label": "Liechtenstein", "id": "YFBUwHreFty" },
+            { "code": "LT", "label": "Lithuania", "id": "NgE7dxvafzN" },
+            { "code": "LU", "label": "Luxembourg", "id": "Lcpj9JRPN6A" },
+            { "code": "MO", "label": "Macao", "id": "Ud37kwuqYOX" },
+            {
+                "value": "MK",
+                "code": "MK",
+                "label": "Macedonia (the former Yugoslav Republic of)",
+                "id": "ol616QD7y9v"
+            },
+            { "code": "MG", "label": "Madagascar", "id": "V9dlKIBeEt5" },
+            { "code": "MW", "label": "Malawi", "id": "ZJKBOoWeZK8" },
+            { "code": "MY", "label": "Malaysia", "id": "TbqJLwX75MB" },
+            { "code": "MV", "label": "Maldives", "id": "cz1jjVYazCU" },
+            { "code": "ML", "label": "Mali", "id": "vaAP0kIZoWc" },
+            { "code": "MT", "label": "Malta", "id": "oUZwMtRc9UZ" },
+            { "code": "MH", "label": "Marshall Islands", "id": "FTShlPn5hKZ" },
+            { "code": "MQ", "label": "Martinique", "id": "PXW5S4tsyeU" },
+            { "code": "MR", "label": "Mauritania", "id": "zSqkhuvMIJx" },
+            { "code": "MU", "label": "Mauritius", "id": "phk8e9YUIyk" },
+            { "code": "YT", "label": "Mayotte", "id": "Lr41AxFkOoQ" },
+            { "code": "MX", "label": "Mexico", "id": "AZKUCGpgtzT" },
+            {
+                "value": "FM",
+                "code": "FM",
+                "label": "Micronesia (Federated States of)",
+                "id": "gr2CYy3Dr56"
+            },
+            { "code": "MD", "label": "Moldova (Republic of)", "id": "n8HXfqEC7qW" },
+            { "code": "MC", "label": "Monaco", "id": "zJVqezCOVEw" },
+            { "code": "MN", "label": "Mongolia", "id": "goMYgrWwzxj" },
+            { "code": "ME", "label": "Montenegro", "id": "YMAWw8lGmVz" },
+            { "code": "MS", "label": "Montserrat", "id": "BFKxH53DgZ4" },
+            { "code": "MA", "label": "Morocco", "id": "jpFFUofjPzL" },
+            { "code": "MZ", "label": "Mozambique", "id": "Qodq6bOTBgk" },
+            { "code": "MM", "label": "Myanmar", "id": "HHpmrOG4Oah" },
+            { "code": "NA", "label": "Namibia", "id": "o3FDUKEuK9I" },
+            { "code": "NR", "label": "Nauru", "id": "CqUzE4oAeMo" },
+            { "code": "NP", "label": "Nepal", "id": "G3wJAW7bEqO" },
+            { "code": "NL", "label": "Netherlands", "id": "XhVZiHLpMnJ" },
+            { "code": "NC", "label": "New Caledonia", "id": "SFnJXKHtNPT" },
+            { "code": "NZ", "label": "New Zealand", "id": "NbSAL47OfTk" },
+            { "code": "NI", "label": "Nicaragua", "id": "G9i0iHpkYbp" },
+            { "code": "NE", "label": "Niger", "id": "isQUPKHcs6X" },
+            { "code": "NG", "label": "Nigeria", "id": "i6mNzSoi00T" },
+            { "code": "NU", "label": "Niue", "id": "fsojvbtJaQ9" },
+            { "code": "NF", "label": "Norfolk Island", "id": "CHVoLfGmFbt" },
+            { "code": "MP", "label": "Northern Mariana Islands", "id": "DnKpeOCqfDu" },
+            { "code": "NO", "label": "Norway", "id": "abXMcNMfUHW" },
+            { "code": "OM", "label": "Oman", "id": "KCS77S1n8yE" },
+            { "code": "PK", "label": "Pakistan", "id": "Vd3efHrokOx" },
+            { "code": "PW", "label": "Palau", "id": "nuJCiz6sWMs" },
+            { "code": "PS", "label": "Palestine, State of", "id": "PSXaRzhAoO5" },
+            { "code": "PA", "label": "Panama", "id": "Z4UIfFiFuMC" },
+            { "code": "PG", "label": "Papua New Guinea", "id": "y5Edd8OyiIS" },
+            { "code": "PY", "label": "Paraguay", "id": "JtLlBt8z3Th" },
+            { "code": "PE", "label": "Peru", "id": "u0Iy4qXUpGx" },
+            { "code": "PH", "label": "Philippines", "id": "Hn8n03RTQoy" },
+            { "code": "PN", "label": "Pitcairn", "id": "UH9iMU8RCbR" },
+            { "code": "PL", "label": "Poland", "id": "TgDFVQK8poQ" },
+            { "code": "PT", "label": "Portugal", "id": "fJGUZnvCg0m" },
+            { "code": "PR", "label": "Puerto Rico", "id": "pMggNgUQ24t" },
+            { "code": "QA", "label": "Qatar", "id": "YBnIVZiENSl" },
+            { "code": "RE", "label": "Reunion", "id": "dyHaYgO8uRD" },
+            { "code": "RO", "label": "Romania", "id": "fDggEkf3s9Q" },
+            { "code": "RU", "label": "Russian Federation", "id": "Vh7og15xjfI" },
+            { "code": "RW", "label": "Rwanda", "id": "XFtEiGSEM5K" },
+            { "code": "BL", "label": "Saint Barthalemy", "id": "TlWg479ykNG" },
+            {
+                "value": "SH",
+                "code": "SH",
+                "label": "Saint Helena, Ascension and Tristan da Cunha",
+                "id": "AbZ1Ahy2uzF"
+            },
+            { "code": "KN", "label": "Saint Kitts and Nevis", "id": "Vx5yJqEFdiG" },
+            { "code": "LC", "label": "Saint Lucia", "id": "oJtdF4dJlKR" },
+            { "code": "MF", "label": "Saint Martin (French part)", "id": "Fjs0ekdnQp4" },
+            { "code": "PM", "label": "Saint Pierre and Miquelon", "id": "cuBbK1kGxQG" },
+            {
+                "value": "VC",
+                "code": "VC",
+                "label": "Saint Vincent and the Grenadines",
+                "id": "CgCPhepq1T0"
+            },
+            { "code": "WS", "label": "Samoa", "id": "OiiQDTwRhiJ" },
+            { "code": "SM", "label": "San Marino", "id": "kgx4yTXnCm5" },
+            { "code": "ST", "label": "Sao Tome and Principe", "id": "ot9j1RhdTxJ" },
+            { "code": "SA", "label": "Saudi Arabia", "id": "K2Z3GIjbpfy" },
+            { "code": "SN", "label": "Senegal", "id": "IjeQQN6i6oB" },
+            { "code": "RS", "label": "Serbia", "id": "mwQoRreFhS4" },
+            { "code": "SC", "label": "Seychelles", "id": "nslF0rp6DYP" },
+            { "code": "SL", "label": "Sierra Leone", "id": "m5Mzp8gH9SE" },
+            { "code": "SG", "label": "Singapore", "id": "pGtXTzwNgYJ" },
+            { "code": "SX", "label": "Sint Maarten (Dutch part)", "id": "wU06ZppIUrr" },
+            { "code": "SK", "label": "Slovakia", "id": "SVkuqbtbwkn" },
+            { "code": "SI", "label": "Slovenia", "id": "tgZNiP0av9R" },
+            { "code": "SB", "label": "Solomon Islands", "id": "C6mh8woRILR" },
+            { "code": "SO", "label": "Somalia", "id": "XUAgsUvnd9D" },
+            { "code": "ZA", "label": "South Africa", "id": "ybi90nX7jIG" },
+            {
+                "value": "GS",
+                "code": "GS",
+                "label": "South Georgia and the South Sandwich Islands",
+                "id": "xscRY8jGm4I"
+            },
+            { "code": "SS", "label": "South Sudan", "id": "nucHGYLnDym" },
+            { "code": "ES", "label": "Spain", "id": "AWCr3B2Ec6K" },
+            { "code": "LK", "label": "Sri Lanka", "id": "vVm2PrIRCZb" },
+            { "code": "SD", "label": "Sudan", "id": "tmChdi1uORn" },
+            { "code": "SR", "label": "Suriname", "id": "dsiiSBdkIOV" },
+            { "code": "SJ", "label": "Svalbard and Jan Mayen", "id": "HvsdUX9XzqA" },
+            { "code": "SZ", "label": "Swaziland", "id": "LSa01WRIEoa" },
+            { "code": "SE", "label": "Sweden", "id": "BkyPw8ckTNY" },
+            { "code": "CH", "label": "Switzerland", "id": "TtTR0Yl2wu4" },
+            { "code": "SY", "label": "Syrian Arab Republic", "id": "rWZk1zIRhxd" },
+            { "code": "TW", "label": "Taiwan, Province of China", "id": "YiWILyGjKnW" },
+            { "code": "TJ", "label": "Tajikistan", "id": "z3ciloHD9PX" },
+            { "code": "TZ", "label": "Tanzania, United Republic of", "id": "EfbDHbL0WVR" },
+            { "code": "TH", "label": "Thailand", "id": "NgOETSb20pt" },
+            { "code": "TL", "label": "Timor-Leste", "id": "GHlYciOJcc3" },
+            { "code": "TG", "label": "Togo", "id": "lxBYLgAGHyI" },
+            { "code": "TK", "label": "Tokelau", "id": "ysx0MV7RW2X" },
+            { "code": "TO", "label": "Tonga", "id": "E8gQhClNFbP" },
+            { "code": "TT", "label": "Trinidad and Tobago", "id": "vpOUqs1VdKL" },
+            { "code": "TN", "label": "Tunisia", "id": "f5ZqqjsV2PJ" },
+            { "code": "TR", "label": "Turkey", "id": "cpSzNk48yTR" },
+            { "code": "TM", "label": "Turkmenistan", "id": "ziovQhoHqXQ" },
+            { "code": "TC", "label": "Turks and Caicos Islands", "id": "PxkPTw9fbIk" },
+            { "code": "TV", "label": "Tuvalu", "id": "RuqZKue3rFr" },
+            { "code": "UG", "label": "Uganda", "id": "clThxUwFWOz" },
+            { "code": "UA", "label": "Ukraine", "id": "N1cS8AIDi1q" },
+            { "code": "AE", "label": "United Arab Emirates", "id": "PDxzpx08WBj" },
+            {
+                "value": "GB",
+                "code": "GB",
+                "label": "United Kingdom of Great Britain and Northern Ireland",
+                "id": "QBbuw7ibNxz"
+            },
+            {
+                "value": "UM",
+                "code": "UM",
+                "label": "United States Minor Outlying Islands",
+                "id": "slJul3ojjA4"
+            },
+            { "code": "US", "label": "United States of America", "id": "rFyxYwKsUHn" },
+            { "code": "UY", "label": "Uruguay", "id": "J6NKBEYkEIX" },
+            { "code": "UZ", "label": "Uzbekistan", "id": "MZtPirsiobx" },
+            { "code": "VU", "label": "Vanuatu", "id": "zz44ZJwE4BC" },
+            {
+                "value": "VE",
+                "code": "VE",
+                "label": "Venezuela (Bolivarian Republic of)",
+                "id": "aO1V8Km6tIa"
+            },
+            { "code": "VN", "label": "Viet Nam", "id": "alllxGOxa3E" },
+            { "code": "VG", "label": "Virgin Islands (British)", "id": "yKhE8gOOm3t" },
+            { "code": "VI", "label": "Virgin Islands (U.S.)", "id": "MmfxULjuTXH" },
+            { "code": "WF", "label": "Wallis and Futuna", "id": "ctQxqa1n0Ki" },
+            { "code": "EH", "label": "Western Sahara", "id": "NdVZXFSvX7t" },
+            { "code": "YE", "label": "Yemen", "id": "oJ7nxbnJtlz" },
+            { "code": "ZM", "label": "Zambia", "id": "SJm6VUYbovd" },
+            { "code": "ZW", "label": "Zimbabwe", "id": "YULlOdKf9DK" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Family setting (acute respiratory infection)",
+        "value": "COVID_Family setting (acute respiratory infection)",
+        "id": "ymPAOiwkqT0",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Workplace (acute respiratory infection)",
+        "value": "COVID_Workplace (acute respiratory infection)",
+        "id": "ypw02tLMPFQ",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Unknown (acute respiratory infection)",
+        "value": "COVID_Unknown (acute respiratory infection)",
+        "id": "nsohnMrNmaF",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Other contact setting, specify (acute respiratory infection)",
+        "value": "COVID_Other contact setting, specify (acute respiratory infection)",
+        "id": "HcxURmewqhC",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Has the patient had contact with a probable or confirmed case in the 14 days prior to symptom onset?   ",
+        "value": "Has the patient had contact with a probable or confirmed case in the 14 days prior to symptom onset?   ",
+        "id": "X30kPftDe6M",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Case 1 identifier",
+        "value": "COVID_Case 1 identifier",
+        "id": "kWrFMAyg6Wd",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Case 2 identifier",
+        "value": "COVID_Case 2 identifier",
+        "id": "qIjb1K7RBSQ",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Case 3 identifier",
+        "value": "COVID_Case 3 identifier",
+        "id": "OO9CGZqnlHg",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Health care setting (probable/confirmed)",
+        "value": "COVID_Health care setting (probable/confirmed)",
+        "id": "aWmPaghPPiX",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Family setting (probable/confirmed)",
+        "value": "COVID_Family setting (probable/confirmed)",
+        "id": "USNWlaqJYfj",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Workplace (probable/confirmed)",
+        "value": "COVID_Workplace (probable/confirmed)",
+        "id": "SwPVr4XgPpH",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Unknown (probable/confirmed)",
+        "value": "COVID_Unknown (probable/confirmed)",
+        "id": "o7djkXfYZQH",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Other contact setting, specify (probable/confirmed)",
+        "value": "COVID_Other contact setting, specify (probable/confirmed)",
+        "id": "xKuGAfa9VwT",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_If yes, location country/city/district/village/parish for exposure (Probable)",
+        "value": "COVID_If yes, location country/city/district/village/parish for exposure (Probable)",
+        "id": "oREeMbJdOOi",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Have you visited any live animal markets in the 14 days prior to symptom onset?",
+        "value": "COVID_Have you visited any live animal markets in the 14 days prior to symptom onset?",
+        "id": "B459pxTvHeR",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Neck Stiffness",
+        "value": "Neck Stiffness",
+        "id": "HyNgjBD1dZO",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_If yes, location country/city/district/village/parish for exposure (Animal)",
+        "value": "COVID_If yes, location country/city/district/village/parish for exposure (Animal)",
+        "id": "LnR3mUby5q3",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Menigeal Irritation",
+        "value": "Menigeal Irritation",
+        "id": "AlCXawpUECD",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "COVID_Patient has symptoms?",
+        "value": "COVID_Patient has symptoms?",
+        "id": "fFfdr1uvr8O",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "d0TuLeOtU6b" },
+            { "code": "No", "value": "No", "label": "No", "id": "zSBYciukSrI" },
+            {
+                "value": "Asymptomatic",
+                "code": "Asymptomatic",
+                "label": "Asymptomatic",
+                "id": "RByVFVm8M45"
+            },
+            {
+                "code": "Unknown",
+                "value": "Unknown",
+                "label": "Unknown",
+                "id": "Tt3F0AAaWUT"
+            }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Coryza",
+        "value": "Coryza",
+        "id": "ZN8jEl77Vd9",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Patient has Signs",
+        "value": "Patient has Signs",
+        "id": "qZbnrWP7sAc",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Signs: Pharyngea exudate",
+        "value": "Signs: Pharyngea exudate",
+        "id": "EcvciwIVAtL",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Convulsions",
+        "value": "Convulsions",
+        "id": "PNoXi3aGhyu",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Signs: Conjunctival injection",
+        "value": "Signs: Conjunctival injection",
+        "id": "IUFQDU68rS6",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Severe dehydration",
+        "value": "Severe dehydration",
+        "id": "hjfEwpwbGhf",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Oedema",
+        "value": "Oedema",
+        "id": "MRgKxmDRHpc",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Seizures",
+        "value": "Seizures",
+        "id": "hCZ3F0EuzdS",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Signs: Coma",
+        "value": "Signs: Coma",
+        "id": "VdiTxORMZ24",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Depressed Black Eschar",
+        "value": "Depressed Black Eschar",
+        "id": "GUmW2Zs0OhL",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Signs: Dyspnea / tachypnea",
+        "value": "Signs: Dyspnea / tachypnea",
+        "id": "NxFYllr5RpU",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Skin Lession",
+        "value": "Skin Lession",
+        "id": "qawUmnXZGXe",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Signs: Abnormal lung auscultation ",
+        "value": "Signs: Abnormal lung auscultation ",
+        "id": "fAefJDDlCgz",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Rapid onset of Hypoxia",
+        "value": "Rapid onset of Hypoxia",
+        "id": "BKikVrNLopO",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Signs: Abnormal lung x-ray findings",
+        "value": "Signs: Abnormal lung x-ray findings",
+        "id": "sb4e0RdaCy1",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Dyspnoea",
+        "value": "Dyspnoea",
+        "id": "Rk98Xyk7Tgb",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Signs: Other, specify",
+        "value": "Signs: Other, specify",
+        "id": "xUX5BfGUHjG",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Loss of Consciousness",
+        "value": "Loss of Consciousness",
+        "id": "aQpEYSvqYzt",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Agitation",
+        "value": "Agitation",
+        "id": "WG2axOO99Ji",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Post-partum (< 6 weeks) ",
+        "value": "Post-partum (< 6 weeks) ",
+        "id": "zkzuwNw4Aq0",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Abnormal Tingling Sensation",
+        "value": "Abnormal Tingling Sensation",
+        "id": "nS0t1pxfQ7q",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Pregnancy trimester",
+        "value": "Pregnancy trimester",
+        "id": "HM8BPaL8Bbj",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "First", "code": "First", "label": "First", "id": "M8fVtx6FlZp" },
+            { "value": "Second", "code": "Second", "label": "Second", "id": "vgt6z5lZYlN" },
+            { "value": "Third", "code": "Third", "label": "Third", "id": "M53qe7eaWtc" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Was the patient ventilated",
+        "value": "Was the patient ventilated",
+        "id": "BGIl7Un4Far",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Fear of Water",
+        "value": "Fear of Water",
+        "id": "fxgziaIksxH",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Did the patient die?",
+        "value": "Did the patient die?",
+        "id": "E4Z7JQV0QFt",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Date of death, if applicable",
+        "value": "Date of death, if applicable",
+        "id": "kJHY6C05MoS",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Malaise",
+        "value": "Malaise",
+        "id": "Oez69SaOqoj",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Liver Damage",
+        "value": "Liver Damage",
+        "id": "ogyH72HPK3a",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Not Sucking Well",
+        "value": "Not Sucking Well",
+        "id": "reE6yC00kWt",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Date of Vaccination 1st Dose (Meningitis)",
+        "value": "Date of Vaccination 1st Dose (Meningitis)",
+        "id": "YlmCQ445u0W",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Date of Vaccination 2nd Dose (Meningitis)",
+        "value": "Date of Vaccination 2nd Dose (Meningitis)",
+        "id": "m1Wkbxa0asX",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Date of Vaccination 3rd Dose (Meningitis)",
+        "value": "Date of Vaccination 3rd Dose (Meningitis)",
+        "id": "fmHgjqfDldf",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Abnormal chest x-ray (anthrax)",
+        "value": "Abnormal chest x-ray (anthrax)",
+        "id": "LkxtpIjTjv8",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Does the patient garden, work with soil? (Anthrax)",
+        "value": "Does the patient garden, work with soil? (Anthrax)",
+        "id": "WKbJ4ZKaBZw",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Does the patient own, work with or around livestock or wild mammals or their body fluids? (Anthrax)",
+        "value": "Does the patient own, work with or around livestock or wild mammals or their body fluids? (Anthrax)",
+        "id": "h6OEupFrg9c",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Does the patient work in a clinical or microbiological laboratory? (Anthrax)",
+        "value": "Does the patient work in a clinical or microbiological laboratory? (Anthrax)",
+        "id": "g3hwZUKR84B",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Do you have animals recently brought on your farm? (Anthrax)",
+        "value": "Do you have animals recently brought on your farm? (Anthrax)",
+        "id": "BIuUpzBfJTM",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Do you have any animals that have died recently in this home? (Anthrax)",
+        "value": "Do you have any animals that have died recently in this home? (Anthrax)",
+        "id": "QuzmiSg0Yd7",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Edema (Anthrax)",
+        "value": "Edema (Anthrax)",
+        "id": "scCXhYmwLeY",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How many? (Anthrax)",
+        "value": "How many? (Anthrax)",
+        "id": "pyuFaQ1GFVx",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Myalgia (Anthrax)",
+        "value": "Myalgia (Anthrax)",
+        "id": "yorZWgRLES1",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "What signs presented before death? (Anthrax)",
+        "value": "What signs presented before death? (Anthrax)",
+        "id": "c9ipLpnjBJX",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Photophobia",
+        "value": "Photophobia",
+        "id": "CLNWrgSyd6B",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Lymphadenopathy",
+        "value": "Lymphadenopathy",
+        "id": "ivqTwM3EfKW",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Category of Respondent (Cholera)",
+        "value": "Category of Respondent (Cholera)",
+        "id": "VbmKRwnQjNp",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Case", "label": "Case", "id": "H1cYYCEmn2j" },
+            { "code": "Control", "label": "Control", "id": "FnzIOToVjY4" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Drinking water history during exposure period: Breakfast (Cholera)",
+        "value": "Drinking water history during exposure period: Breakfast (Cholera)",
+        "id": "j1aLF606OvO",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Drinking water history during exposure period: Dinner (Cholera)",
+        "value": "Drinking water history during exposure period: Dinner (Cholera)",
+        "id": "HbE6HZgKbYW",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Drinking water history during exposure period: Lunch (Cholera)",
+        "value": "Drinking water history during exposure period: Lunch (Cholera)",
+        "id": "FPjl8gMnYqX",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Drinking water history during exposure period: Outside Meal (Cholera)",
+        "value": "Drinking water history during exposure period: Outside Meal (Cholera)",
+        "id": "ia0hSHSWDs6",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Food history during exposure period: Breakfast (Cholera)",
+        "value": "Food history during exposure period: Breakfast (Cholera)",
+        "id": "z819eVMZBja",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Food history during exposure period: Lunch (Cholera)",
+        "value": "Food history during exposure period: Lunch (Cholera)",
+        "id": "IrFlVbt3xx5",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Food history during exposure period: Supper (Cholera)",
+        "value": "Food history during exposure period: Supper (Cholera)",
+        "id": "fEXJRNMwdhA",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How much water did you drink? (ltrs): Breakfast (Cholera)",
+        "value": "How much water did you drink? (ltrs): Breakfast (Cholera)",
+        "id": "jSsVxuFx8Rv",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How much water did you drink? (ltrs): Dinner (Cholera)",
+        "value": "How much water did you drink? (ltrs): Dinner (Cholera)",
+        "id": "hSSwVuIkSqA",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How much water did you drink? (ltrs): Lunch (Cholera)",
+        "value": "How much water did you drink? (ltrs): Lunch (Cholera)",
+        "id": "gqa7y3ISQmw",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How was the water Prepared?: Breakfast (Cholera)",
+        "value": "How was the water Prepared?: Breakfast (Cholera)",
+        "id": "vDiTbwZBnTD",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "Treated", "code": "Treated", "label": "Treated", "id": "kBTi2ZgXM0g" },
+            { "value": "Boiled", "code": "Boiled", "label": "Boiled", "id": "eaZh8J4ltGq" },
+            { "value": "Filtered", "code": "Filtered", "label": "Filtered", "id": "qMvg17YomdR" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How was the water Prepared?: Dinner (Cholera)",
+        "value": "How was the water Prepared?: Dinner (Cholera)",
+        "id": "hgSCX5JDhvL",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "Treated", "code": "Treated", "label": "Treated", "id": "kBTi2ZgXM0g" },
+            { "value": "Boiled", "code": "Boiled", "label": "Boiled", "id": "eaZh8J4ltGq" },
+            { "value": "Filtered", "code": "Filtered", "label": "Filtered", "id": "qMvg17YomdR" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How was the water Prepared?: Lunch (Cholera)",
+        "value": "How was the water Prepared?: Lunch (Cholera)",
+        "id": "R2CK3P7Cvmi",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "Treated", "code": "Treated", "label": "Treated", "id": "kBTi2ZgXM0g" },
+            { "value": "Boiled", "code": "Boiled", "label": "Boiled", "id": "eaZh8J4ltGq" },
+            { "value": "Filtered", "code": "Filtered", "label": "Filtered", "id": "qMvg17YomdR" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "How was the water Prepared?: Outside Meal (Cholera)",
+        "value": "How was the water Prepared?: Outside Meal (Cholera)",
+        "id": "ykLSW3OOk0s",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "Treated", "code": "Treated", "label": "Treated", "id": "kBTi2ZgXM0g" },
+            { "value": "Boiled", "code": "Boiled", "label": "Boiled", "id": "eaZh8J4ltGq" },
+            { "value": "Filtered", "code": "Filtered", "label": "Filtered", "id": "qMvg17YomdR" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Name of point at river/name of well/spring/other source (Cholera)",
+        "value": "Name of point at river/name of well/spring/other source (Cholera)",
+        "id": "PIKHz6v474j",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "What was the primary source for your drinking water before the outbreak began? (Cholera)",
+        "value": "What was the primary source for your drinking water before the outbreak began? (Cholera)",
+        "id": "uucmdVzKBvL",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "River", "code": "River", "label": "River", "id": "avOUd4I4tie" },
+            {
+                "value": "Protected shallow well",
+                "code": "Protected shallow well",
+                "label": "Protected shallow well",
+                "id": "YzmohlcyQ0D"
+            },
+            {
+                "value": "Unprotected shallow well",
+                "code": "Unprotected shallow well",
+                "label": "Unprotected shallow well",
+                "id": "NjBn5rsydeb"
+            },
+            {
+                "value": "Protected spring",
+                "code": "Protected spring",
+                "label": "Protected spring",
+                "id": "jPTeABy6Ozt"
+            },
+            {
+                "value": "Unprotected spring",
+                "code": "Unprotected spring",
+                "label": "Unprotected spring",
+                "id": "QzCh6GMojZ4"
+            },
+            {
+                "value": "Bore hole",
+                "code": "Bore hole",
+                "label": "Bore hole",
+                "id": "FKxgRTFjESn"
+            },
+            {
+                "value": "Rain Water",
+                "code": "Rain Water",
+                "label": "Rain Water",
+                "id": "NB7DBZrR1vE"
+            },
+            { "value": "Other", "code": "Other", "label": "Other", "id": "HeEuRqLsx7q" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Where was the water from?: Breakfast (Cholera)",
+        "value": "Where was the water from?: Breakfast (Cholera)",
+        "id": "Z0pLGN9WfJb",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "River", "code": "River", "label": "River", "id": "avOUd4I4tie" },
+            {
+                "value": "Protected shallow well",
+                "code": "Protected shallow well",
+                "label": "Protected shallow well",
+                "id": "YzmohlcyQ0D"
+            },
+            {
+                "value": "Unprotected shallow well",
+                "code": "Unprotected shallow well",
+                "label": "Unprotected shallow well",
+                "id": "NjBn5rsydeb"
+            },
+            {
+                "value": "Protected spring",
+                "code": "Protected spring",
+                "label": "Protected spring",
+                "id": "jPTeABy6Ozt"
+            },
+            {
+                "value": "Unprotected spring",
+                "code": "Unprotected spring",
+                "label": "Unprotected spring",
+                "id": "QzCh6GMojZ4"
+            },
+            {
+                "value": "Bore hole",
+                "code": "Bore hole",
+                "label": "Bore hole",
+                "id": "FKxgRTFjESn"
+            },
+            {
+                "value": "Rain Water",
+                "code": "Rain Water",
+                "label": "Rain Water",
+                "id": "NB7DBZrR1vE"
+            },
+            { "value": "Other", "code": "Other", "label": "Other", "id": "HeEuRqLsx7q" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Where was the water from?: Dinner (Cholera)",
+        "value": "Where was the water from?: Dinner (Cholera)",
+        "id": "JpXqxKxU1TT",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "River", "label": "River", "id": "avOUd4I4tie" },
+            {
+                "value": "Protected shallow well",
+                "code": "Protected shallow well",
+                "label": "Protected shallow well",
+                "id": "YzmohlcyQ0D"
+            },
+            {
+                "value": "Unprotected shallow well",
+                "code": "Unprotected shallow well",
+                "label": "Unprotected shallow well",
+                "id": "NjBn5rsydeb"
+            },
+            {
+                "value": "Protected spring",
+                "code": "Protected spring",
+                "label": "Protected spring",
+                "id": "jPTeABy6Ozt"
+            },
+            {
+                "value": "Unprotected spring",
+                "code": "Unprotected spring",
+                "label": "Unprotected spring",
+                "id": "QzCh6GMojZ4"
+            },
+            {
+                "value": "Bore hole",
+                "code": "Bore hole",
+                "label": "Bore hole",
+                "id": "FKxgRTFjESn"
+            },
+            {
+                "value": "Rain Water",
+                "code": "Rain Water",
+                "label": "Rain Water",
+                "id": "NB7DBZrR1vE"
+            },
+            { "value": "Other", "code": "Other", "label": "Other", "id": "HeEuRqLsx7q" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Where was the water from?: Lunch (Cholera)",
+        "value": "Where was the water from?: Lunch (Cholera)",
+        "id": "qJexOGFHBGP",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "value": "River", "code": "River", "label": "River", "id": "avOUd4I4tie" },
+            {
+                "value": "Protected shallow well",
+                "code": "Protected shallow well",
+                "label": "Protected shallow well",
+                "id": "YzmohlcyQ0D"
+            },
+            {
+                "value": "Unprotected shallow well",
+                "code": "Unprotected shallow well",
+                "label": "Unprotected shallow well",
+                "id": "NjBn5rsydeb"
+            },
+            {
+                "value": "Protected spring",
+                "code": "Protected spring",
+                "label": "Protected spring",
+                "id": "jPTeABy6Ozt"
+            },
+            {
+                "value": "Unprotected spring",
+                "code": "Unprotected spring",
+                "label": "Unprotected spring",
+                "id": "QzCh6GMojZ4"
+            },
+            {
+                "value": "Bore hole",
+                "code": "Bore hole",
+                "label": "Bore hole",
+                "id": "FKxgRTFjESn"
+            },
+            {
+                "value": "Rain Water",
+                "code": "Rain Water",
+                "label": "Rain Water",
+                "id": "NB7DBZrR1vE"
+            },
+            { "value": "Other", "code": "Other", "label": "Other", "id": "HeEuRqLsx7q" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Latrine availability? (Cholera)",
+        "value": "Latrine availability? (Cholera)",
+        "id": "HyRfuShTtYm",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Open defecation (Cholera)",
+        "value": "Open defecation (Cholera)",
+        "id": "CW5NSJMlAE3",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "What is your primary source of Utility water (Kitchen utensils, cooking, washing, bathing (Cholera)",
+        "value": "What is your primary source of Utility water (Kitchen utensils, cooking, washing, bathing (Cholera)",
+        "id": "B2XKQCx5mEu",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "River", "label": "River", "id": "avOUd4I4tie" },
+            {
+                "value": "Protected shallow well",
+                "code": "Protected shallow well",
+                "label": "Protected shallow well",
+                "id": "YzmohlcyQ0D"
+            },
+            {
+                "value": "Unprotected shallow well",
+                "code": "Unprotected shallow well",
+                "label": "Unprotected shallow well",
+                "id": "NjBn5rsydeb"
+            },
+            {
+                "value": "Protected spring",
+                "code": "Protected spring",
+                "label": "Protected spring",
+                "id": "jPTeABy6Ozt"
+            },
+            {
+                "value": "Unprotected spring",
+                "code": "Unprotected spring",
+                "label": "Unprotected spring",
+                "id": "QzCh6GMojZ4"
+            },
+            {
+                "value": "Bore hole",
+                "code": "Bore hole",
+                "label": "Bore hole",
+                "id": "FKxgRTFjESn"
+            },
+            {
+                "value": "Rain Water",
+                "code": "Rain Water",
+                "label": "Rain Water",
+                "id": "NB7DBZrR1vE"
+            },
+            { "value": "Other", "code": "Other", "label": "Other", "id": "HeEuRqLsx7q" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Chest in-drawing (SARI)",
+        "value": "Chest in-drawing (SARI)",
+        "id": "T4wr5S6J6Pb",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Grunting respiration (SARI)",
+        "value": "Grunting respiration (SARI)",
+        "id": "VW4nRjfVURk",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Lethargic/unconscious (SARI)",
+        "value": "Lethargic/unconscious (SARI)",
+        "id": "SEcTBkYvTXu",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Nasal flaring (SARI)",
+        "value": "Nasal flaring (SARI)",
+        "id": "P3QdhYxFhLX",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Stridor in a calm child (SARI)",
+        "value": "Stridor in a calm child (SARI)",
+        "id": "KeVGmmCenIA",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Unable to drink/breastfeed (SARI)",
+        "value": "Unable to drink/breastfeed (SARI)",
+        "id": "J8dJILUwkDZ",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Were you vaccinated against influenza during the past year? (SARI)",
+        "value": "Were you vaccinated against influenza during the past year? (SARI)",
+        "id": "im4QgiNg4mN",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "X-ray performed? (SARI)",
+        "value": "X-ray performed? (SARI)",
+        "id": "cDHEFUd4oX1",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "x9yVKkv9koc" },
+            { "code": "No", "value": "No", "label": "No", "id": "R98tI2c6rF5" },
+            { "code": "Unknown", "value": "Unknown", "label": "Unknown", "id": "pqxvAQU1z9W" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "CV19-Conditions: Current smoker",
+        "value": "CV19-Conditions: Current smoker",
+        "id": "Onv6JpaZdu6",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Water storage practices: Jerrycan (Cholera)",
+        "value": "Water storage practices: Jerrycan (Cholera)",
+        "id": "VtGn9kzd95R",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Water storage practices: Pot (Cholera)",
+        "value": "Water storage practices: Pot (Cholera)",
+        "id": "m9MyiW1EXvv",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Water storage practices: Saucepan (Cholera)",
+        "value": "Water storage practices: Saucepan (Cholera)",
+        "id": "aRF86X1x2uI",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Water storage practices: Plastic bucket (Cholera)",
+        "value": "Water storage practices: Plastic bucket (Cholera)",
+        "id": "XUJLNKsFJYO",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "Water storage practices: Others, specify (Cholera)",
+        "value": "Water storage practices: Others, specify (Cholera)",
+        "id": "MjjRhuIlWae",
+        "optionSetValue": false
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "CV19-Conditions: Asthma",
+        "value": "CV19-Conditions: Asthma",
+        "id": "jdziTTmSlK2",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "label": "CV19-Conditions: Tuberculosis",
+        "value": "CV19-Conditions: Tuberculosis",
+        "id": "Ktv2kHlNQEL",
+        "optionSetValue": true,
+        "availableOptions": [
+            { "code": "Yes", "value": "Yes", "label": "Yes", "id": "I7B4r9m1iIZ" },
+            { "code": "No", "value": "No", "label": "No", "id": "g9WSz3pDHf1" }
+        ]
+    }
+]

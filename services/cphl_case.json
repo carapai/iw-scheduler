@@ -1,0 +1,344 @@
+[
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "screenerName",
+        "value": "screenerName"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "organisation",
+        "value": "organisation"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "organisationId",
+        "value": "organisationId"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "sampleCollectionDate",
+        "value": "sampleCollectionDate"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "sampleCollectionLocation",
+        "value": "sampleCollectionLocation"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "dateSampleSentToLaboratory",
+        "value": "dateSampleSentToLaboratory"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "typeOfPersonTested",
+        "value": "typeOfPersonTested"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "fullName",
+        "value": "fullName"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "formId",
+        "value": "formId"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "barcode",
+        "value": "barcode"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "poeId",
+        "value": "poeId"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "dob",
+        "value": "dob"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "sex",
+        "value": "sex"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "passportOrNInNo",
+        "value": "passportOrNInNo"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "casePhoneContact",
+        "value": "casePhoneContact"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "nationality",
+        "value": "nationality"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "entryDate",
+        "value": "entryDate"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "truckOrFlightNo",
+        "value": "truckOrFlightNo"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "seatNo",
+        "value": "seatNo"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "departure",
+        "value": "departure"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "destination",
+        "value": "destination"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "addressInUganda",
+        "value": "addressInUganda"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "plannedDuration",
+        "value": "plannedDuration"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "needForIsolation",
+        "value": "needForIsolation"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "underQuarantine",
+        "value": "underQuarantine"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "referredForFurtherInvestigation",
+        "value": "referredForFurtherInvestigation"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "nokName",
+        "value": "nokName"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "nokPhone",
+        "value": "nokPhone"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "temperature",
+        "value": "temperature"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "freeFromSymptoms",
+        "value": "freeFromSymptoms"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "selectSymptoms",
+        "value": "selectSymptoms"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "knownUnderlyingConditions",
+        "value": "knownUnderlyingConditions"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "reasonsForHWTesting",
+        "value": "reasonsForHWTesting"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "age",
+        "value": "age"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "ageUnits",
+        "value": "ageUnits"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "eacDriverId",
+        "value": "eacDriverId"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "district",
+        "value": "district"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "subCounty",
+        "value": "subCounty"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "sampleType",
+        "value": "sampleType"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "testType",
+        "value": "testType"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": false,
+        "availableOptions": [],
+        "label": "sampleId",
+        "value": "sampleId"
+    },
+    {
+        "unique": false,
+        "mandatory": false,
+        "optionSetValue": true,
+        "availableOptions": [
+            { "label": "Covid 19", "value": "RA01", "code": "RA01" },
+            { "label": "Ebola", "value": "1D60", "code": "1D60" },
+            { "label": "Measles", "value": "1F03", "code": "1F03" },
+            { "label": "Rubela", "value": "1F02", "code": "1F02" },
+            { "label": "Polio", "value": "1C81", "code": "1C81" }
+        ],
+        "label": "who_disease_code",
+        "value": "who_disease_code"
+    }
+]
