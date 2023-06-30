@@ -59,7 +59,7 @@ const StellarService: ServiceSchema<StellarSettings> = {
 	 * Service started lifecycle event handler
 	 */
 	started: async () => {
-		scheduleJob("cases", "*/5 * * * *", async () => {
+		scheduleJob("cases", "*/30 * * * * *", async () => {
 			const api = axios.create({
 				baseURL: "https://ugandaeidsr.org/api",
 				auth: {
