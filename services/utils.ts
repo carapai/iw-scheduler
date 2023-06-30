@@ -21,6 +21,9 @@ import {
 	convertFromDHIS2,
 	fetchEvents,
 	postRemote,
+	fetchTrackedEntityInstances,
+	fetchRemote,
+	generateUid,
 } from "data-import-wizard-utils";
 
 import instances from "../instances.json";
@@ -30,7 +33,29 @@ interface Organisation extends CommonIdentifier {
 	parent: Organisation;
 }
 
+interface PackageEvents {
+	events: Array<{
+		facility_of_origin: string;
+		destination: string;
+		"Last Seen At": string;
+		longitude?: any;
+		latitude?: any;
+		date: string;
+		barcode: string;
+		status: string;
+	}>;
+	status: number;
+	status_desc: string;
+}
+
 const allInstances: { [key: string]: { username: string; password: string } } = instances;
+
+const options: { [key: string]: string } = {
+	Polio: "1C81",
+	ViralHemorrhagicFever: "1D60",
+	"Measles/Rubella": "1F03",
+	COVID19: "RA01",
+};
 
 const restTrackApi = axios.create({
 	baseURL: "https://homtest.cphluganda.org/api/",
@@ -64,10 +89,10 @@ export const queryOrganisationUnits = async (api: AxiosInstance, ids: string[]) 
 
 export const fetchPackageStatus = async (packageId: string) => {
 	try {
-		const { data } = await restTrackApi.get("events_for_package", {
+		const { data } = await restTrackApi.get<PackageEvents>("events_for_package", {
 			params: { package: packageId },
 		});
-		console.log(data);
+		return data;
 	} catch (error) {
 		console.log(error.message);
 	}
@@ -105,12 +130,11 @@ export const processPackage = async (api: AxiosInstance, events: Event[]) => {
 			samples: packagedData.map((data) => {
 				return {
 					sample_identifier: data.Ju7cS1sUwcF,
-					test_type_code: "2301290",
+					test_type_code: options[data.PaCUNfho8eD] || data.PaCUNfho8eD,
 				};
 			}),
 		};
 		try {
-			console.log(JSON.stringify(payload));
 			const { data } = await restTrackApi.post("restrack/create_external_package", payload);
 			return data;
 		} catch (error) {
@@ -121,36 +145,119 @@ export const processPackage = async (api: AxiosInstance, events: Event[]) => {
 
 export const queryPackageEvents = async (api: AxiosInstance, others: { [key: string]: string }) => {
 	let page = 1;
-	let realParams = {
-		ouMode: "DESCENDANTS",
-		programStage: "wDbv6YK8gxW",
-		pageSize: "5",
-		orgUnit: "FvewOonC8lS",
-		page: String(page),
-		...others,
-	};
-	const params = new URLSearchParams(realParams);
-
-	let {
-		data: { events },
-	} = await api.get<{ events: Event[] }>(`events.json?${params.toString()}`);
-
-	console.log("Processing first page");
-	await processPackage(api, events);
-
+	let currentEvents = 0;
 	do {
-		const params2 = new URLSearchParams({
-			...realParams,
-			page: String(page + 1),
+		const params = new URLSearchParams({
+			ouMode: "ALL",
+			programStage: "wDbv6YK8gxW",
+			pageSize: "50",
+			page: String(page),
+			...others,
 		});
-		console.log("Querying next page");
+		console.log(`Querying page ${page}`);
 		let {
 			data: { events },
-		} = await api.get<{ events: Event[] }>(`events.json?${params2.toString()}`);
+		} = await api.get<{ events: Event[] }>(`events.json?${params.toString()}`);
 		console.log("Processing to queried page");
 		await processPackage(api, events);
 		page = page + 1;
-	} while (events.length > 0);
+		currentEvents = events.length;
+	} while (currentEvents > 0);
+
+	console.log("Done syncing");
+};
+
+export const updatePackageStatus = async (
+	api: AxiosInstance,
+	others: { [key: string]: string } = {},
+) => {
+	let page = 1;
+	let instances = 0;
+
+	do {
+		const params = new URLSearchParams({
+			ouMode: "ALL",
+			program: "YxzzGnJSlws",
+			pageSize: "50",
+			page: String(page),
+			fields: "*",
+			...others,
+		});
+		console.log(`Querying page ${page}`);
+		let {
+			data: { trackedEntityInstances },
+		} = await api.get<{ trackedEntityInstances: TrackedEntityInstance[] }>(
+			`trackedEntityInstances.json?${params.toString()}`,
+		);
+
+		let possibleEvents = [];
+		for (const trackedEntityInstance of trackedEntityInstances) {
+			const packageId = trackedEntityInstance.attributes.find(
+				({ attribute }) => attribute === "BaaClOSu9VL",
+			)?.value;
+
+			const packageEvents: Array<{ [key: string]: any }> =
+				trackedEntityInstance.enrollments.flatMap(({ events }) => {
+					return events?.flatMap(({ dataValues, eventDate, programStage }) => {
+						if (programStage === "Nbavi4J4HNj") {
+							const obj: { [key: string]: any } = {
+								eventDate,
+								...fromPairs(
+									dataValues.map(({ dataElement, value }) => [
+										dataElement,
+										value,
+									]),
+								),
+							};
+							return obj;
+						}
+						return [];
+					});
+				});
+			let allEvents = [];
+
+			const enrollment = trackedEntityInstance.enrollments.find(
+				({ program }) => program === "YxzzGnJSlws",
+			);
+			if (packageId && packageEvents && enrollment) {
+				const packageInfo = await fetchPackageStatus(packageId);
+				if (packageInfo && packageInfo.status === 200) {
+					for (const p of packageInfo.events) {
+						const date = p.date.slice(0, 10);
+						const existing = packageEvents.find((currentPackage) => {
+							const eventDate = String(currentPackage?.eventDate || "").slice(0, 10);
+							const action = currentPackage?.["JEJFHDVFDYL"];
+							return date === eventDate && p.status === action;
+						});
+
+						if (existing === undefined) {
+							const event = {
+								enrollment: enrollment.enrollment,
+								orgUnit: enrollment.orgUnit,
+								program: enrollment.program,
+								trackedEntityInstance: enrollment.trackedEntityInstance,
+								programStage: "",
+								eventDate: date,
+								event: generateUid(),
+								dataValues: [
+									{ dataElement: "JEJFHDVFDYL", value: p.status },
+									{ dataElement: "pR3A73W6EuX", value: p.destination },
+									{ dataElement: "MaR0lvrRkvR", value: p["Last Seen At"] },
+								],
+							};
+							allEvents.push(event);
+						}
+					}
+				}
+			}
+			possibleEvents.push(allEvents);
+		}
+
+		const { data } = await api.post("events", { events: possibleEvents });
+		console.log(data);
+		page = page + 1;
+		instances = trackedEntityInstances.length;
+	} while (instances > 0);
 
 	console.log("Done syncing");
 };
@@ -309,128 +416,137 @@ export const queryEvents = async (api: AxiosInstance, others: { [key: string]: s
 	console.log("Done syncing");
 };
 
-export const processProgramMapping = async (mapping: string, baseURL: string) => {
-	const { username, password } = allInstances[baseURL];
-	const api = axios.create({
-		baseURL,
-		auth: {
-			username,
-			password,
-		},
-	});
+export const processProgramMapping = async (
+	mapping: string,
+	baseURL: string,
+	additionalParams: { [key: string]: string },
+) => {
+	const { username, password } = allInstances[baseURL] || {};
+	if (baseURL && username && password) {
+		const api = axios.create({
+			baseURL,
+			auth: {
+				username,
+				password,
+			},
+		});
 
-	const { data: programMapping } = await api.get<IProgramMapping>(
-		`dataStore/iw-program-mapping/${mapping}`,
-	);
-	const { data: attributeMapping } = await api.get<Mapping>(
-		`dataStore/iw-attribute-mapping/${mapping}`,
-	);
-	const { data: programStageMapping } = await api.get<StageMapping>(
-		`dataStore/iw-stage-mapping/${mapping}`,
-	);
-	const { data: organisationUnitMapping } = await api.get<StageMapping>(
-		`dataStore/iw-ou-mapping/${mapping}`,
-	);
-	const { data: optionMapping } = await api.get<Record<string, string>>(
-		`dataStore/iw-option-mapping/${mapping}`,
-	);
-	const { data: program } = await api.get<Partial<IProgram>>(
-		`programs/${programMapping.program}`,
-		{
-			params: new URLSearchParams({
-				fields: "trackedEntityType,organisationUnits[id,code,name],programStages[id,repeatable,name,code,programStageDataElements[id,compulsory,name,dataElement[id,name,code]]],programTrackedEntityAttributes[id,mandatory,sortOrder,allowFutureDate,trackedEntityAttribute[id,name,code,unique,generated,pattern,confidential,valueType,optionSetValue,displayFormName,optionSet[id,name,options[id,name,code]]]]",
-			}),
-		},
-	);
+		const { data: programMapping } = await api.get<IProgramMapping>(
+			`dataStore/iw-program-mapping/${mapping}`,
+		);
+		const { data: attributeMapping } = await api.get<Mapping>(
+			`dataStore/iw-attribute-mapping/${mapping}`,
+		);
+		const { data: programStageMapping } = await api.get<StageMapping>(
+			`dataStore/iw-stage-mapping/${mapping}`,
+		);
+		const { data: organisationUnitMapping } = await api.get<StageMapping>(
+			`dataStore/iw-ou-mapping/${mapping}`,
+		);
+		const { data: optionMapping } = await api.get<Record<string, string>>(
+			`dataStore/iw-option-mapping/${mapping}`,
+		);
+		const { data: program } = await api.get<Partial<IProgram>>(
+			`programs/${programMapping.program}`,
+			{
+				params: new URLSearchParams({
+					fields: "trackedEntityType,organisationUnits[id,code,name],programStages[id,repeatable,name,code,programStageDataElements[id,compulsory,name,dataElement[id,name,code]]],programTrackedEntityAttributes[id,mandatory,sortOrder,allowFutureDate,trackedEntityAttribute[id,name,code,unique,generated,pattern,confidential,valueType,optionSetValue,displayFormName,optionSet[id,name,options[id,name,code]]]]",
+				}),
+			},
+		);
 
-	const { attributes, elements } = makeValidation(program);
+		const { attributes, elements } = makeValidation(program);
 
-	const uniqAttribute = programUniqAttributes(attributeMapping);
-	const uniqueElements = programStageUniqElements(programStageMapping);
-	const uniqColumns = programUniqColumns(attributeMapping);
+		const uniqAttribute = programUniqAttributes(attributeMapping);
+		const uniqueElements = programStageUniqElements(programStageMapping);
+		const uniqColumns = programUniqColumns(attributeMapping);
+		const metadata = makeMetadata(
+			programMapping,
+			program,
+			[],
+			{},
+			programStageMapping,
+			attributeMapping,
+			[],
+			{},
+		);
 
-	const metadata = makeMetadata(
-		programMapping,
-		program,
-		[],
-		{},
-		programStageMapping,
-		attributeMapping,
-		[],
-		{},
-	);
-
-	let params = new URLSearchParams();
-	metadata.uniqueAttributeValues.forEach(({ attribute, value }) => {
-		params.append("filter", `${attribute}:eq:${value}`);
-	});
-	params.append("fields", "*");
-	params.append("program", programMapping.program || "");
-	params.append("ouMode", "ALL");
-
-	// const {
-	// 	data: { trackedEntityInstances },
-	// } = await api.get<{ trackedEntityInstances: TrackedEntityInstance[] }>(
-	// 	`trackedEntityInstances.json?${params.toString()}`,
-	// );
-
-	// const previous = processPreviousInstances(
-	// 	trackedEntityInstances,
-	// 	uniqAttribute,
-	// 	uniqueElements,
-	// 	programMapping.program || "",
-	// );
-
-	const events = await fetchEvents(
-		{ axios: api } as any,
-		programMapping.dhis2Options?.programStage || [],
-		50,
-		programMapping.program || "",
-		{ lastUpdatedDuration: "10m" },
-	);
-
-	// const {
-	// 	enrollments,
-	// 	events,
-	// 	trackedEntityInstances: processedInstances,
-	// } = await convertToDHIS2(
-	// 	previous,
-	// 	[],
-	// 	programMapping,
-	// 	organisationUnitMapping,
-	// 	attributeMapping,
-	// 	programStageMapping,
-	// 	optionMapping,
-	// 	2,
-	// 	program,
-	// 	elements,
-	// 	attributes,
-	// );
-
-	const actual = await convertFromDHIS2(
-		events as any,
-		programMapping,
-		organisationUnitMapping,
-		attributeMapping,
-		true,
-	);
-
-	for (const payload of actual) {
-		try {
-			const response = await postRemote<any>(programMapping.authentication, "", payload, {});
-			console.log(response);
-		} catch (error: any) {
-			console.log(error);
+		if (programMapping.isSource) {
+			if (
+				programMapping.dhis2Options &&
+				programMapping.dhis2Options.programStage &&
+				programMapping.dhis2Options.programStage.length > 0
+			) {
+				const events = await fetchEvents(
+					{ axios: api } as any,
+					programMapping.dhis2Options?.programStage || [],
+					50,
+					programMapping.program || "",
+					{ lastUpdatedDuration: "10m" },
+				);
+				const actual = await convertFromDHIS2(
+					events as any,
+					programMapping,
+					organisationUnitMapping,
+					attributeMapping,
+					true,
+					optionMapping,
+				);
+				for (const payload of actual) {
+					try {
+						const response = await postRemote<any>(
+							programMapping.authentication,
+							"",
+							payload,
+							{},
+						);
+						console.log(response);
+					} catch (error: any) {
+						console.log(error);
+					}
+				}
+			} else {
+			}
+		} else {
+			const data = await fetchRemote<any[]>(programMapping.authentication, "");
+			await fetchTrackedEntityInstances(
+				{ axios: api as any },
+				programMapping,
+				additionalParams,
+				metadata.uniqueAttributeValues,
+				true,
+				async (
+					trackedEntityInstances: TrackedEntityInstance[],
+					processedAttributes,
+					page,
+				) => {
+					const previous = processPreviousInstances(
+						trackedEntityInstances,
+						uniqAttribute,
+						uniqueElements,
+						programMapping.program || "",
+					);
+					const {
+						enrollments,
+						events,
+						trackedEntityInstances: processedInstances,
+						trackedEntityInstanceUpdates,
+						eventUpdates,
+					} = await convertToDHIS2(
+						previous,
+						data,
+						programMapping,
+						organisationUnitMapping,
+						attributeMapping,
+						programStageMapping,
+						optionMapping,
+						2,
+						program,
+						elements,
+						attributes,
+					);
+				},
+			);
 		}
 	}
-
-	// const data = convertFromDHIS2();
-
-	// console.log(
-	// 	program,
-	// 	programMapping,
-	// 	attributeMapping,
-	// 	// stageMapping,
-	// 	// organisationMapping,
-	// );
 };

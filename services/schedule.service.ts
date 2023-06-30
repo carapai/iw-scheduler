@@ -90,7 +90,7 @@ const ScheduleService: ServiceSchema<ScheduleSettings> & { methods: DbServiceMet
 		const data = await this.adapter.find({});
 		for (const m of data) {
 			const los: ISchedule = m as ISchedule;
-			processProgramMapping(los.mapping, los.url);
+			processProgramMapping(los.mapping, los.url, {});
 		}
 	},
 };

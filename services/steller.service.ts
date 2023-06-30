@@ -1,6 +1,9 @@
+import axios from "axios";
 import type { Service, ServiceSchema } from "moleculer";
 import { scheduleJob } from "node-schedule";
-import { processProgramMapping } from "./utils";
+import { processProgramMapping, queryPackageEvents, updatePackageStatus } from "./utils";
+import instances from "../instances.json";
+
 export interface ActionHelloParams {
 	name: string;
 }
@@ -56,9 +59,20 @@ const StellarService: ServiceSchema<StellarSettings> = {
 	 * Service started lifecycle event handler
 	 */
 	started: async () => {
-		scheduleJob("cases", "*/5 * * * * *", async () => {
+		scheduleJob("cases", "*/5 * * * *", async () => {
+			const api = axios.create({
+				baseURL: "https://ugandaeidsr.org/api",
+				auth: {
+					username: instances["https://ugandaeidsr.org/api"].username,
+					password: instances["https://ugandaeidsr.org/api"].password,
+				},
+			});
 			try {
-				await processProgramMapping("D0MjjTWE1Tw", "https://ugandaeidsr.org/api");
+				await processProgramMapping("D0MjjTWE1Tw", "https://ugandaeidsr.org/api", {
+					lastUpdatedDuration: "10m",
+				});
+				await queryPackageEvents(api, { lastUpdatedDuration: "10m" });
+				await updatePackageStatus(api);
 			} catch (error) {
 				console.log(error);
 			}
